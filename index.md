@@ -1,8 +1,7 @@
 ---
-title: Home
-description: Description that will appear below the title in the banner
-#background: /assets/images/banner_background_image.jpg
-permalink: /
+title: Welcome to the UCSD Synthetic Biology Institute 
+description: engineering the living world through quantitative biology
+background: /assets/images/gurolBanner.jpg
 layout: home
 toc: false
 comments: false # See posts
