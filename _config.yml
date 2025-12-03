@@ -33,6 +33,11 @@ remote_theme: peterdesmet/petridish@3.1
 plugins:
   - jekyll-feed
 
+logo: /assets/images/logo.png
+ 
+social:
+  email: paytonco@ucsd.edu
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
