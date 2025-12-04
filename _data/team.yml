@@ -26,3 +26,66 @@
   image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
   description: >
     Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
+
+- name: Jeff Hasty
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/jhasty_headshot.jpg
+  description: >
+    Bioengineering
+    Physics
+    Biology
+  googlescholar: https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en
+  email: jhasty@ucsd.edu
+
+- name: Lev Tsimring
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/Lev_Tsimring_headshot.jpg
+  description: >
+    Dynamic gene circuitry modeling
+    The art in the patterns of life
+  googlescholar: https://scholar.google.com/citations?user=Muw0HmEAAAAJ
+  email: ltsimring@ucsd.edu
+
+- name: Nan Hao
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/nhao_headshot.jpg
+  description: >
+    Professor in Molecular Biology
+  googlescholar: https://scholar.google.com/citations?user=4TlPy6MAAAAJ&hl=en
+  email: nhao@ucsd.edu
+
+- name: Robert Cooper
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/rcooper_headshot.jpeg
+  description: >
+    DNA Biosensors
+    Natural Competence
+  googlescholar: https://scholar.google.com/citations?user=UWjM5p4AAAAJ
+  email: rcooper@ucsd.edu
+
+- name: Rob Knight
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/rob_knight_headshot.jpeg
+  description: >
+    Founding Director of the Center for Microbiome Innovation and Professor of Pediatrics and Computer Science & Engineering at UCSD
+  googlescholar: https://scholar.google.com/citations?user=_e3QL94AAAAJ&hl=en
+  email: rknight@ucsd.edu
+
+- name: Omar Din
+  #role: Postdoctoral Scholar in the Department of Pediatrics
+  image: assets/theme/images/headshots/Omar_din_headshot.png
+  description: >
+    Quantitative microbiome science • Synthetic biology • Microbial adaptation • Long-read metagenomics
+  googlescholar: https://scholar.google.com/citations?user=-zgyXN8AAAAJ&hl=en
+  email: odin@health.ucsd.edu
+
+- name: Amir Zarrinpar
+  #role: Principal Investigator
+  image: assets/theme/images/headshots/azarrinpar_headshot.jpeg
+  description: >
+    Circadian Rhythms, Metabolism, and Gut Microbiome
+  googlescholar: https://scholar.google.com/citations?user=kkvG8N0AAAAJ&hl=en
+  email: azarrinpar@health.ucsd.edu
+
+
+
