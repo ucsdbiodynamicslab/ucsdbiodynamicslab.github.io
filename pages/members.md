@@ -1,6 +1,7 @@
 ---
 title: Members
 description: Description that will appear below the title in the banner
+layout: team
 #background: /assets/images/banner_background_image.jpg
 permalink: /mems/
 background: /assets/images/cropped-gurol1-scaled.jpg
