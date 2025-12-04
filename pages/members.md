@@ -1,6 +1,6 @@
 ---
 title: Members
-description: Description that will appear below the title in the banner
+description: who we are
 layout: team
 #background: /assets/images/banner_background_image.jpg
 permalink: /mems/
