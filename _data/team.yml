@@ -1,89 +1,85 @@
 # Project team members listed below will appear on the /team page
 
-- name: Philip J. Fry
-  role: Delivery boy # Will appear next to name
-  image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
-  description: > # Can be Markdown
-    Protagonist, from the 20th century. Many times great-uncle to Professor Hubert Farnsworth.
-  orcid: 0000-0000-0000-0000
-  researchgate: researchgate_username
-  googlescholar: googlescholar_username
-  bluesky: bluesky_username.bsky.social
-  mastodon: https://mastodon.social/@mastodon_username
-  twitter: twitter_username
-  linkedin: linkedin_username
-  github: github_username
-  email: name@example.com
+#- name: Philip J. Fry
+#  role: Delivery boy # Will appear next to name
+#  image: assets/theme/images/fry_ethan-hoover-311143-unsplash.jpg # Can be external link
+#  description: > # Can be Markdown
+#    Protagonist, from the 20th century. Many times great-uncle to Professor Hubert Farnsworth.
+#  orcid: 0000-0000-0000-0000
+#  researchgate: researchgate_username
+#  googlescholar: googlescholar_username
+#  bluesky: bluesky_username.bsky.social
+#  mastodon: https://mastodon.social/@mastodon_username
+#  twitter: twitter_username
+#  linkedin: linkedin_username
+#  github: github_username
+#  email: name@example.com
 
-- name: Turanga Leela
-  role: Captain
-  description: >
-    Mutant cyclops. Leela is spaceship captain, pilot, and head of all 
-    aviation services on board the [Planet Express Ship](https://en.wikipedia.org/wiki/Planet_Express_Ship). 
+#- name: Turanga Leela
+#  role: Captain
+#  description: >
+#    Mutant cyclops. Leela is spaceship captain, pilot, and head of all 
+#    aviation services on board the [Planet Express Ship](https://en.wikipedia.org/wiki/Planet_Express_Ship). 
 
-- name: Professor Hubert J. Farnsworth
-  role: CEO & Owner
-  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
-  description: >
-    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
+#- name: Professor Hubert J. Farnsworth
+#  role: CEO & Owner
+#  image: assets/theme/images/farnsworth_angelo-abear-1662775-unsplash.jpg
+#  description: >
+#    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
 
 - name: Jeff Hasty
-  #role: Principal Investigator
-  image: assets/theme/images/headshots/jhasty_headshot.jpg
+  role: Director
+  image: assets/images/headshots/jhasty_headshot.jpg
   description: >
-    Bioengineering
-    Physics
-    Biology
+    Genetic Circuits • Biophysics • Engineered Ecologies
   googlescholar: https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en
   email: jhasty@ucsd.edu
 
 - name: Lev Tsimring
   #role: Principal Investigator
-  image: assets/theme/images/headshots/Lev_Tsimring_headshot.jpg
+  image: assets/images/headshots/Lev_Tsimring_headshot.jpg
   description: >
-    Dynamic gene circuitry modeling
-    The art in the patterns of life
+    Dynamical Systems • Computational Biology
   googlescholar: https://scholar.google.com/citations?user=Muw0HmEAAAAJ
   email: ltsimring@ucsd.edu
 
 - name: Nan Hao
   #role: Principal Investigator
-  image: assets/theme/images/headshots/nhao_headshot.jpg
+  image: assets/images/headshots/nhao_headshot.jpg
   description: >
-    Professor in Molecular Biology
+    Dynamics of the Stress Response • Cellular Aging • Heterogeneity in Cancer
   googlescholar: https://scholar.google.com/citations?user=4TlPy6MAAAAJ&hl=en
   email: nhao@ucsd.edu
 
 - name: Robert Cooper
   #role: Principal Investigator
-  image: assets/theme/images/headshots/rcooper_headshot.jpeg
+  image: assets/images/headshots/rcooper_headshot.jpeg
   description: >
-    DNA Biosensors
-    Natural Competence
+    DNA Biosensors • Natural Competence
   googlescholar: https://scholar.google.com/citations?user=UWjM5p4AAAAJ
   email: rcooper@ucsd.edu
 
 - name: Rob Knight
   #role: Principal Investigator
-  image: assets/theme/images/headshots/rob_knight_headshot.jpeg
+  image: assets/images/headshots/rob_knight_headshot.jpeg
   description: >
-    Founding Director of the Center for Microbiome Innovation and Professor of Pediatrics and Computer Science & Engineering at UCSD
+    Human Microbiome • Bioinformatic Tool Development • Environmental Microbiology
   googlescholar: https://scholar.google.com/citations?user=_e3QL94AAAAJ&hl=en
   email: rknight@ucsd.edu
 
 - name: Omar Din
   #role: Postdoctoral Scholar in the Department of Pediatrics
-  image: assets/theme/images/headshots/Omar_din_headshot.png
+  image: assets/images/headshots/Omar_din_headshot.png
   description: >
-    Quantitative microbiome science • Synthetic biology • Microbial adaptation • Long-read metagenomics
+    Quantitative Microbiome Science •  Microbial Adaptation • Long-read metagenomics
   googlescholar: https://scholar.google.com/citations?user=-zgyXN8AAAAJ&hl=en
   email: odin@health.ucsd.edu
 
 - name: Amir Zarrinpar
   #role: Principal Investigator
-  image: assets/theme/images/headshots/azarrinpar_headshot.jpeg
+  image: assets/images/headshots/azarrinpar_headshot.jpeg
   description: >
-    Circadian Rhythms, Metabolism, and Gut Microbiome
+    Circadian Rhythms • Metabolism • Gut Microbiome
   googlescholar: https://scholar.google.com/citations?user=kkvG8N0AAAAJ&hl=en
   email: azarrinpar@health.ucsd.edu
 
