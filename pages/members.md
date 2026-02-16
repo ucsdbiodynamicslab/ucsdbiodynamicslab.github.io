@@ -1,6 +1,6 @@
 ---
 title: Members
-description: who we are
+description: scientists and engineers making biology programmable
 layout: team
 #background: /assets/images/banner_background_image.jpg
 permalink: /mems/

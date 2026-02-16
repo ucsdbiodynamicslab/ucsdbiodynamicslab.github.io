@@ -1,6 +1,6 @@
 ---
 title: About
-description: what is SBI
+description: building biology with math, code, and curiosity
 permalink: /about/
 background: /assets/images/microfluidics-scaled.jpg
 toc: false

@@ -1,6 +1,6 @@
 ---
-title: News & Events
-description: Description that will appear below the title in the banner
+title: News
+description: stories of genes, ciruits, and the people who design them
 #background: /assets/images/banner_background_image.jpg
 permalink: /news/
 background: /assets/images/cropped-Q1190217rgb2.jpg
