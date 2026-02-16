@@ -4,6 +4,7 @@ import yaml
 from pathlib import Path
 from dateutil import parser as dateparser
 from datetime import datetime
+import re
 
 # Determine the repository root based on script location
 SCRIPT_DIR = Path(__file__).resolve().parent      # assets/python
@@ -13,14 +14,20 @@ DATA_DIR = REPO_ROOT / "_data"
 NEWS_FILE = DATA_DIR / "news.yml"
 PI_FILE = DATA_DIR / "pis.yml"
 
+# Stopwords to ignore for keyword generation
+STOPWORDS = {
+    "The", "And", "For", "With", "From", "This", "That", "Are", "Was", 
+    "Has", "Have", "Will", "Its", "Their", "About", "Through", "Your", "They",
+    "Researchers", "Research", "Study", "Studies", "Approach", "Demonstrate"
+}
+
 def load_pis():
     """Load PI list from pis.yml"""
     if not PI_FILE.exists():
         raise FileNotFoundError(f"Could not find PI file at {PI_FILE}")
     with open(PI_FILE) as f:
         data = yaml.safe_load(f)
-    pis = data.get("pis", [])
-    return pis
+    return data.get("pis", [])
 
 def load_existing():
     """Load existing news articles from news.yml"""
@@ -43,8 +50,30 @@ def normalize_date(date_str):
     except Exception:
         return datetime.now().isoformat()
 
+def generate_keywords(text, max_keywords=5):
+    """
+    Generate selective keywords from title + summary:
+    - Only capitalized words or sequences of capitalized words (1-3 words)
+    - Exclude stopwords
+    - Deduplicate and limit number
+    """
+    phrases = re.findall(r'\b(?:[A-Z][a-z]+\s?){1,3}\b', text)
+    keywords = []
+    seen = set()
+    for p in phrases:
+        phrase = p.strip()
+        if not phrase or phrase in STOPWORDS or len(phrase) < 4:
+            continue
+        key = phrase.lower()
+        if key not in seen:
+            keywords.append(phrase)
+            seen.add(key)
+        if len(keywords) >= max_keywords:
+            break
+    return keywords
+
 def fetch_articles():
-    """Fetch articles from a separate RSS feed per PI"""
+    """Fetch articles from a separate RSS feed per PI with selective tags"""
     pis = load_pis()
     existing = load_existing()
     existing_urls = {item["url"] for item in existing}
@@ -64,6 +93,13 @@ def fetch_articles():
             pub_date = normalize_date(entry.get("published", ""))
             source = entry.source.title if "source" in entry else "Google News"
             summary = entry.summary if "summary" in entry else ""
+            combined_text = f"{entry.title} {summary}"
+
+            # Generate selective extra keywords for tags
+            extra_keywords = generate_keywords(combined_text)
+
+            # Tags: PI name, UCSD Synthetic Biology, plus generated keywords
+            tags = [pi, "UCSD Synthetic Biology"] + extra_keywords
 
             item = {
                 "title": entry.title,
@@ -71,7 +107,7 @@ def fetch_articles():
                 "source": source,
                 "date": pub_date,
                 "summary": summary,
-                "tags": [pi, "UCSD Synthetic Biology"]
+                "tags": tags
             }
             new_items.append(item)
             existing_urls.add(url)
