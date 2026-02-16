@@ -5,16 +5,21 @@ from pathlib import Path
 from dateutil import parser as dateparser
 from datetime import datetime
 
-# Assume the script lives at assets/python/fetch_news.py
-BASE_DIR = Path(__file__).resolve().parent.parent.parent  # repo root
-NEWS_FILE = BASE_DIR / "_data/news.yml"
-PI_FILE = BASE_DIR / "_data/pis.yml"
+# Determine the repository root based on script location
+SCRIPT_DIR = Path(__file__).resolve().parent      # assets/python
+REPO_ROOT = SCRIPT_DIR.parent.parent              # repo root
+DATA_DIR = REPO_ROOT / "_data"
+
+NEWS_FILE = DATA_DIR / "news.yml"
+PI_FILE = DATA_DIR / "pis.yml"
 
 # Google News RSS feed (broad search)
 RSS_URL = "https://news.google.com/rss/search?q=UCSD+Synthetic+Biology&hl=en-US&gl=US&ceid=US:en"
 
 def load_filters():
     """Load required terms and PI list from pis.yml"""
+    if not PI_FILE.exists():
+        raise FileNotFoundError(f"Could not find PI file at {PI_FILE}")
     with open(PI_FILE) as f:
         data = yaml.safe_load(f)
     required_terms = data.get("primary_filters", [])
@@ -78,7 +83,7 @@ def fetch_articles():
             "source": source,
             "date": pub_date,
             "summary": summary,
-            "tags": ["UCSD Synthetic Biology"]  # optional, can add more dynamic tags later
+            "tags": ["UCSD Synthetic Biology"]  # optional, extendable
         }
         new_items.append(item)
 
