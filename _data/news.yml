@@ -1,0 +1,209 @@
+- title: "UC San Diego researchers unveil adaptive gene control platform"
+  source: "ScienceDaily"
+  url: "https://example.com/news1"
+  date: 2026-02-14
+  summary: "A new control architecture improves robustness in engineered cellular systems."
+  tags: ["Jeff Hasty", "gene circuits", "control theory"]
+
+- title: "Synthetic biology institute expands interdisciplinary reach"
+  source: "BioTech Today"
+  url: "https://example.com/news2"
+  date: 2026-02-10
+  summary: "Collaborations across engineering and medicine drive new research directions."
+  tags: ["UC San Diego Synthetic Biology Institute", "interdisciplinary"]
+
+- title: "Federal funding accelerates programmable cell research"
+  source: "The San Diego Union-Tribune"
+  url: "https://example.com/news3"
+  date: 2026-02-02
+  summary: "Major investment supports innovation in gene network design."
+  tags: ["federal funding", "UC San Diego"]
+
+- title: "Engineering stability in genetic oscillators"
+  source: "Nature News"
+  url: "https://example.com/news4"
+  date: 2026-01-28
+  summary: "Researchers refine oscillatory circuit architectures."
+  tags: ["gene circuits", "dynamical systems"]
+
+- title: "Biological computation takes center stage"
+  source: "Science Magazine"
+  url: "https://example.com/news5"
+  date: 2026-01-21
+  summary: "Synthetic gene networks show promise for adaptive therapies."
+  tags: ["biological computation", "synthetic biology"]
+
+- title: "UC San Diego scientists develop resilient RNA controllers"
+  source: "Medical Research News"
+  url: "https://example.com/news6"
+  date: 2026-01-18
+  summary: "RNA-based feedback systems enhance cellular precision."
+  tags: ["RNA", "control theory"]
+
+- title: "Institute hosts symposium on engineered living systems"
+  source: "Campus Chronicle"
+  url: "https://example.com/news7"
+  date: 2026-01-15
+  summary: "Experts gather to discuss the future of biological design."
+  tags: ["UC San Diego Synthetic Biology Institute", "conference"]
+
+- title: "New advances in microbial community modeling"
+  source: "BioEngineering World"
+  url: "https://example.com/news8"
+  date: 2026-01-12
+  summary: "Mathematical tools improve ecological prediction."
+  tags: ["modeling", "microbial systems"]
+
+- title: "Precision control strategies reshape synthetic biology"
+  source: "TechScience Report"
+  url: "https://example.com/news9"
+  date: 2026-01-09
+  summary: "Feedback design transforms circuit reliability."
+  tags: ["control theory", "synthetic biology"]
+
+- title: "UC San Diego expands graduate research initiatives"
+  source: "Higher Ed Today"
+  url: "https://example.com/news10"
+  date: 2026-01-05
+  summary: "New fellowships support next-generation bioengineers."
+  tags: ["graduate research", "UC San Diego"]
+
+- title: "Design automation tools streamline genetic engineering"
+  source: "GenomeTech"
+  url: "https://example.com/news11"
+  date: 2025-12-28
+  summary: "Software platforms accelerate biological circuit design."
+  tags: ["design automation", "gene circuits"]
+
+- title: "Synthetic biology reaches clinical translation milestone"
+  source: "HealthTech News"
+  url: "https://example.com/news12"
+  date: 2025-12-20
+  summary: "Programmable cells move closer to therapeutic use."
+  tags: ["clinical translation", "synthetic biology"]
+
+- title: "Control theory meets cellular design"
+  source: "Engineering Frontiers"
+  url: "https://example.com/news13"
+  date: 2025-12-15
+  summary: "Mathematical frameworks guide robust gene circuits."
+  tags: ["control theory", "dynamical systems"]
+
+- title: "UC San Diego researchers receive national recognition"
+  source: "National Science Brief"
+  url: "https://example.com/news14"
+  date: 2025-12-10
+  summary: "Institute faculty honored for engineering innovation."
+  tags: ["UC San Diego", "awards"]
+
+- title: "Synthetic biology education initiative launches"
+  source: "Campus Newswire"
+  url: "https://example.com/news15"
+  date: 2025-12-02
+  summary: "New curriculum integrates modeling and wet lab training."
+  tags: ["education", "synthetic biology"]
+
+- title: "Mathematical biology gains traction nationwide"
+  source: "Research Digest"
+  url: "https://example.com/news16"
+  date: 2025-11-28
+  summary: "Dynamical systems approaches transform cellular engineering."
+  tags: ["dynamical systems", "modeling"]
+
+- title: "Programmable microbes engineered for stability"
+  source: "BioWorld"
+  url: "https://example.com/news17"
+  date: 2025-11-22
+  summary: "Feedback control improves long-term performance."
+  tags: ["microbial systems", "control theory"]
+
+- title: "Institute secures collaborative research grant"
+  source: "Funding Watch"
+  url: "https://example.com/news18"
+  date: 2025-11-15
+  summary: "New partnerships expand research capacity."
+  tags: ["federal funding", "UC San Diego Synthetic Biology Institute"]
+
+- title: "Gene circuit innovation highlighted at national meeting"
+  source: "Conference Daily"
+  url: "https://example.com/news19"
+  date: 2025-11-10
+  summary: "Breakthrough designs attract wide attention."
+  tags: ["gene circuits", "conference"]
+
+- title: "Synthetic control systems inspire new therapies"
+  source: "Medical Horizons"
+  url: "https://example.com/news20"
+  date: 2025-11-02
+  summary: "Programmable cells may redefine treatment paradigms."
+  tags: ["clinical translation", "control theory"]
+
+- title: "UC San Diego strengthens bioengineering leadership"
+  source: "Academic Leader"
+  url: "https://example.com/news21"
+  date: 2025-10-25
+  summary: "Institute expands national profile."
+  tags: ["UC San Diego", "synthetic biology"]
+
+- title: "Advanced modeling reshapes cellular computation"
+  source: "Science Outlook"
+  url: "https://example.com/news22"
+  date: 2025-10-18
+  summary: "Quantitative tools enable precise biological design."
+  tags: ["modeling", "biological computation"]
+
+- title: "Researchers pioneer noise-resilient genetic networks"
+  source: "BioSystems Review"
+  url: "https://example.com/news23"
+  date: 2025-10-12
+  summary: "Circuit architectures improve robustness."
+  tags: ["gene circuits", "dynamical systems"]
+
+- title: "Institute recognized for translational innovation"
+  source: "Health Policy Today"
+  url: "https://example.com/news24"
+  date: 2025-10-05
+  summary: "Engineering biology bridges research and medicine."
+  tags: ["clinical translation", "awards"]
+
+- title: "Synthetic biology shapes next decade of medicine"
+  source: "Future Science"
+  url: "https://example.com/news25"
+  date: 2025-09-30
+  summary: "Adaptive systems redefine treatment design."
+  tags: ["synthetic biology", "control theory"]
+
+- title: "New modeling tools accelerate discovery"
+  source: "Tech Research Weekly"
+  url: "https://example.com/news26"
+  date: 2025-09-22
+  summary: "Computational advances reduce design cycles."
+  tags: ["modeling", "design automation"]
+
+- title: "UC San Diego bioengineers push computational limits"
+  source: "Engineering Today"
+  url: "https://example.com/news27"
+  date: 2025-09-15
+  summary: "Large-scale simulations drive innovation."
+  tags: ["UC San Diego", "biological computation"]
+
+- title: "Gene network design enters new era"
+  source: "Science Progress"
+  url: "https://example.com/news28"
+  date: 2025-09-08
+  summary: "Predictive tools improve engineering reliability."
+  tags: ["gene circuits", "modeling"]
+
+- title: "Synthetic systems achieve new control precision"
+  source: "BioEngineering Journal"
+  url: "https://example.com/news29"
+  date: 2025-09-01
+  summary: "Advanced feedback reduces biological variability."
+  tags: ["control theory", "synthetic biology"]
+
+- title: "Institute marks milestone in collaborative research"
+  source: "Research Chronicle"
+  url: "https://example.com/news30"
+  date: 2025-08-25
+  summary: "Cross-campus initiatives expand capabilities."
+  tags: ["UC San Diego Synthetic Biology Institute", "interdisciplinary"]

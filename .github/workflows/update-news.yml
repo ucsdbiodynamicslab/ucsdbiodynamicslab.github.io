@@ -1,0 +1,35 @@
+name: Update News
+
+on:
+  schedule:
+    - cron: "0 12 */14 * *"   # approximately every 2 weeks at 12:00 UTC
+  workflow_dispatch:
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser pyyaml python-dateutil
+
+      - name: Run news fetch script
+        run: python assets/python/fetch_news.py
+
+      - name: Commit updated news
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add _data/news.yml
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update news"
+          git push
