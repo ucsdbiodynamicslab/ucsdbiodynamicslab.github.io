@@ -13,18 +13,14 @@ DATA_DIR = REPO_ROOT / "_data"
 NEWS_FILE = DATA_DIR / "news.yml"
 PI_FILE = DATA_DIR / "pis.yml"
 
-# Google News RSS feed (broad search)
-RSS_URL = "https://news.google.com/rss/search?q=UCSD+Synthetic+Biology&hl=en-US&gl=US&ceid=US:en"
-
-def load_filters():
-    """Load required terms and PI list from pis.yml"""
+def load_pis():
+    """Load PI list from pis.yml"""
     if not PI_FILE.exists():
         raise FileNotFoundError(f"Could not find PI file at {PI_FILE}")
     with open(PI_FILE) as f:
         data = yaml.safe_load(f)
-    required_terms = data.get("primary_filters", [])
-    pi_terms = data.get("pis", [])
-    return required_terms, pi_terms
+    pis = data.get("pis", [])
+    return pis
 
 def load_existing():
     """Load existing news articles from news.yml"""
@@ -39,15 +35,6 @@ def save_news(news):
     with open(NEWS_FILE, "w") as f:
         yaml.dump(news_sorted, f, sort_keys=False)
 
-def article_matches(text, required_terms, pi_terms):
-    """Return True if text matches (all required_terms AND any PI)"""
-    text_lower = text.lower()
-    if not all(term.lower() in text_lower for term in required_terms):
-        return False
-    if not any(pi.lower() in text_lower for pi in pi_terms):
-        return False
-    return True
-
 def normalize_date(date_str):
     """Convert date string to ISO date"""
     try:
@@ -57,35 +44,37 @@ def normalize_date(date_str):
         return datetime.now().isoformat()
 
 def fetch_articles():
-    """Fetch articles from RSS feed and apply filtering"""
-    feed = feedparser.parse(RSS_URL)
-    required_terms, pi_terms = load_filters()
+    """Fetch articles from a separate RSS feed per PI"""
+    pis = load_pis()
     existing = load_existing()
     existing_urls = {item["url"] for item in existing}
     new_items = []
 
-    for entry in feed.entries:
-        url = entry.link
-        if url in existing_urls:
-            continue
+    for pi in pis:
+        query = f"{pi} Synthetic Biology UCSD"
+        rss_url = f"https://news.google.com/rss/search?q={query.replace(' ', '+')}&hl=en-US&gl=US&ceid=US:en"
+        feed = feedparser.parse(rss_url)
+        print(f"Fetched {len(feed.entries)} entries for PI '{pi}'")
 
-        text = f"{entry.title} {entry.summary if 'summary' in entry else ''}"
-        if not article_matches(text, required_terms, pi_terms):
-            continue
+        for entry in feed.entries:
+            url = entry.link
+            if url in existing_urls:
+                continue
 
-        pub_date = normalize_date(entry.get("published", ""))
-        source = entry.source.title if "source" in entry else "Google News"
-        summary = entry.summary if "summary" in entry else ""
+            pub_date = normalize_date(entry.get("published", ""))
+            source = entry.source.title if "source" in entry else "Google News"
+            summary = entry.summary if "summary" in entry else ""
 
-        item = {
-            "title": entry.title,
-            "url": url,
-            "source": source,
-            "date": pub_date,
-            "summary": summary,
-            "tags": ["UCSD Synthetic Biology"]  # optional, extendable
-        }
-        new_items.append(item)
+            item = {
+                "title": entry.title,
+                "url": url,
+                "source": source,
+                "date": pub_date,
+                "summary": summary,
+                "tags": [pi, "UCSD Synthetic Biology"]
+            }
+            new_items.append(item)
+            existing_urls.add(url)
 
     if new_items:
         print(f"Adding {len(new_items)} new articles")
