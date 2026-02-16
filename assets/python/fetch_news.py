@@ -6,7 +6,7 @@ from dateutil import parser as dateparser
 from datetime import datetime
 
 # Assume the script lives at assets/python/fetch_news.py
-BASE_DIR = Path(__file__).resolve().parent.parent  # repo root
+BASE_DIR = Path(__file__).resolve().parent.parent.parent  # repo root
 NEWS_FILE = BASE_DIR / "_data/news.yml"
 PI_FILE = BASE_DIR / "_data/pis.yml"
 
