@@ -5,9 +5,10 @@ from pathlib import Path
 from dateutil import parser as dateparser
 from datetime import datetime
 
-# Paths
-NEWS_FILE = Path("_data/news.yml")
-PI_FILE = Path("_data/pis.yml")
+# Assume the script lives at assets/python/fetch_news.py
+BASE_DIR = Path(__file__).resolve().parent.parent  # repo root
+NEWS_FILE = BASE_DIR / "_data/news.yml"
+PI_FILE = BASE_DIR / "_data/pis.yml"
 
 # Google News RSS feed (broad search)
 RSS_URL = "https://news.google.com/rss/search?q=UCSD+Synthetic+Biology&hl=en-US&gl=US&ceid=US:en"

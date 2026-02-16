@@ -25,6 +25,7 @@ jobs:
 
       - name: Run news fetch script
         run: python assets/python/fetch_news.py
+        working-directory: ${{ github.workspace }}
 
       - name: Commit updated news
         run: |
