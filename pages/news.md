@@ -11,8 +11,6 @@ published: true # See posts
 
 # News
 
-External media coverage mentioning our researchers and research areas.
-
 <div style="margin-bottom: 2rem;">
   <label for="tagSelect"><strong>Filter by topic:</strong></label>
   <select id="tagSelect" style="margin-left: 0.5rem;"></select>
