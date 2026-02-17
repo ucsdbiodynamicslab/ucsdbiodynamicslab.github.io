@@ -107,7 +107,6 @@ function render() {
         <p style="margin:0; font-size:0.9rem; opacity:0.7;">
           ${item.source} · ${new Date(item.date).toLocaleDateString()}
         </p>
-        ${item.summary ? `<p style="margin-top:0.5rem;">${item.summary}</p>` : ""}
       `;
 
       container.appendChild(div);
