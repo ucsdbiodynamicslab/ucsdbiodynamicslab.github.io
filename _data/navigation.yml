@@ -9,20 +9,15 @@
 - text: Labs
   menu: # Dropdown menu (one level deep only)
   - text: Biodynamics Lab
-    href: https://biodynamics.ucsd.edu/
-    new_window: true
+    href: /people/jeff-hasty/
   - text: Hao Lab
-    href: https://haolab.ucsd.edu/
-    new_window: true
+    href: /people/nan-hao/
   - text: Coopabacter Labyi
-    href: https://coopabacter.ucsd.edu/
-    new_window: true
+    href: /people/rob-cooper/
   - text: Zarrinpar Lab
-    href: https://zarrinparlab.org/
-    new_window: true
+    href: /people/amir-zarrinpar/
   - text: Knight Lab
-    href: https://knightlab.ucsd.edu/
-    new_window: true
+    href: /people/rob-knight/
   href: /labs/
 - text: News
   href: /news/

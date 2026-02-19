@@ -3,10 +3,23 @@ primary_filters:
   - "Synthetic Biology"
 
 pis:
-  - "Jeff Hasty"
-  - "Lev Tsimring"
-  - "Nan Hao"
-  - "Robert Cooper"
-  - "Rob Knight"
-  - "Omar Din"
-  - "Amir Zarrinpar"
+  - name: "Jeff Hasty"
+    scholar_url: "https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en&oi=ao"
+
+  - name: "Lev Tsimring"
+    scholar_url: "https://scholar.google.com/citations?user=Muw0HmEAAAAJ&hl=en&oi=ao"
+
+  - name: "Nan Hao"
+    scholar_url: "https://scholar.google.com/citations?user=4TlPy6MAAAAJ&hl=en&oi=ao"
+
+  - name: "Robert Cooper"
+    scholar_url: "https://scholar.google.com/citations?user=UWjM5p4AAAAJ&hl=en&oi=ao"
+
+  - name: "Rob Knight"
+    scholar_url: "https://scholar.google.com/citations?user=_e3QL94AAAAJ&hl=en&oi=ao"
+
+  - name: "Omar Din"
+    scholar_url: "https://scholar.google.com/citations?user=-zgyXN8AAAAJ&hl=en&oi=ao"
+
+  - name: "Amir Zarrinpar"
+    scholar_url: "https://scholar.google.com/citations?user=kkvG8N0AAAAJ&hl=en&oi=ao"

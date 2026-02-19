@@ -32,7 +32,7 @@
   image: assets/images/headshots/jhasty_headshot.jpg
   description: >
     Genetic Circuits • Biophysics • Engineered Ecologies
-  googlescholar: https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en
+  googlescholar: 5rjhaooAAAAJ&hl=en&oi=ao
   email: jhasty@ucsd.edu
 
 - name: Lev Tsimring
@@ -40,7 +40,7 @@
   image: assets/images/headshots/Lev_Tsimring_headshot.jpg
   description: >
     Dynamical Systems • Computational Biology
-  googlescholar: https://scholar.google.com/citations?user=Muw0HmEAAAAJ
+  googlescholar: Muw0HmEAAAAJ
   email: ltsimring@ucsd.edu
 
 - name: Nan Hao
@@ -48,7 +48,7 @@
   image: assets/images/headshots/nhao_headshot.jpg
   description: >
     Dynamics of the Stress Response • Cellular Aging • Heterogeneity in Cancer
-  googlescholar: https://scholar.google.com/citations?user=4TlPy6MAAAAJ&hl=en
+  googlescholar: 4TlPy6MAAAAJ&hl=en
   email: nhao@ucsd.edu
 
 - name: Robert Cooper
@@ -56,7 +56,7 @@
   image: assets/images/headshots/rcooper_headshot.jpeg
   description: >
     DNA Biosensors • Natural Competence
-  googlescholar: https://scholar.google.com/citations?user=UWjM5p4AAAAJ
+  googlescholar: UWjM5p4AAAAJ
   email: rcooper@ucsd.edu
 
 - name: Rob Knight
@@ -64,7 +64,7 @@
   image: assets/images/headshots/rob_knight_headshot.jpeg
   description: >
     Human Microbiome • Bioinformatic Tool Development • Environmental Microbiology
-  googlescholar: https://scholar.google.com/citations?user=_e3QL94AAAAJ&hl=en
+  googlescholar: _e3QL94AAAAJ&hl=en
   email: rknight@ucsd.edu
 
 - name: Omar Din
@@ -72,7 +72,7 @@
   image: assets/images/headshots/Omar_din_headshot.png
   description: >
     Quantitative Microbiome Science •  Microbial Adaptation • Long-read metagenomics
-  googlescholar: https://scholar.google.com/citations?user=-zgyXN8AAAAJ&hl=en
+  googlescholar: -zgyXN8AAAAJ&hl=en
   email: odin@health.ucsd.edu
 
 - name: Amir Zarrinpar
@@ -80,7 +80,7 @@
   image: assets/images/headshots/azarrinpar_headshot.jpeg
   description: >
     Circadian Rhythms • Metabolism • Gut Microbiome
-  googlescholar: https://scholar.google.com/citations?user=kkvG8N0AAAAJ&hl=en
+  googlescholar: kkvG8N0AAAAJ&hl=en
   email: azarrinpar@health.ucsd.edu
 
 
