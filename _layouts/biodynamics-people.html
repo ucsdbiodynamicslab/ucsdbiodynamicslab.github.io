@@ -13,8 +13,6 @@ layout: default
   margin-bottom: 1.5rem;
 }
 
-/* Properly centered grid */
-
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 220px);
@@ -97,8 +95,6 @@ layout: default
   font-weight: 600;
 }
 
-/* Undergraduate styling */
-
 .undergrad-list {
   list-style: none;
   padding: 0;
@@ -155,12 +151,19 @@ layout: default
         <ul class="undergrad-list">
           {% for person in role_members %}
             <li class="undergrad-item">
+
               {% if person.scholar %}
-                <a href="{{ person.scholar }}" target="_blank" rel="noopener">
-                  <span class="undergrad-name">{{ person.name }}</span>
+                {% if person.scholar_new_tab == false %}
+                  <a href="{{ person.scholar }}">
+                {% else %}
+                  <a href="{{ person.scholar }}" target="_blank" rel="noopener">
+                {% endif %}
+              {% endif %}
+
+              <span class="undergrad-name">{{ person.name }}</span>
+
+              {% if person.scholar %}
                 </a>
-              {% else %}
-                <span class="undergrad-name">{{ person.name }}</span>
               {% endif %}
 
               {% if person.interests %}
@@ -170,6 +173,7 @@ layout: default
                   {% endfor %}
                 </div>
               {% endif %}
+
             </li>
           {% endfor %}
         </ul>
@@ -181,7 +185,11 @@ layout: default
             <div class="person-card">
 
               {% if person.scholar %}
-                <a href="{{ person.scholar }}" target="_blank" rel="noopener" class="person-link">
+                {% if person.scholar_new_tab == false %}
+                  <a href="{{ person.scholar }}" class="person-link">
+                {% else %}
+                  <a href="{{ person.scholar }}" target="_blank" rel="noopener" class="person-link">
+                {% endif %}
               {% endif %}
 
               <div class="person-image-wrapper">

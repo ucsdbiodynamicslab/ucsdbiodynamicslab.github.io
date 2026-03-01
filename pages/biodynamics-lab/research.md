@@ -22,7 +22,7 @@ We study these principles using:
 By combining real-time measurements with computational inference, we aim to uncover how cells process information and adapt, turning systems biology into a predictive, quantitative discipline.
 
 <div style="display: flex; justify-content: center;">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/27446297?h=e96a1dcc64" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/27446297?h=e96a1dcc64" width="640" height="360" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 </div>
 
 ## Synthetic Biology
@@ -35,7 +35,7 @@ Our lab builds genetic circuits to test and exploit cellular computation. Key co
 These systems allow us to study feedback, adaptation, and collective behavior while providing platforms for engineering cells with predictable functions.
 
 <div style="display: flex; justify-content: center;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fnpIIZrjMtM?si=mHFgbhLASj7VT-PJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fnpIIZrjMtM?si=mHFgbhLASj7VT-PJ" title="YouTube video player" frameborder="0" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Microfluidics Design
@@ -47,7 +47,7 @@ We design microfluidic platforms to control cellular environments with high prec
 These tools enable quantitative experiments under reproducible, time-varying conditions, connecting environmental inputs to dynamic cellular behavior.
 
 <div style="display: flex; justify-content: center;">
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/24535921?h=d031c41499" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/24535921?h=d031c41499" width="640" height="360" frameborder="0" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   allowfullscreen></iframe>
 </div>
 
 ## Medical Therapies
@@ -60,7 +60,8 @@ We develop systems and synthetic biology strategies for therapeutic applications
 These projects integrate engineered cellular dynamics with translational goals to improve precision therapies.
 
 <div style="display: flex; justify-content: center;">
-![Medical Therapies](/assets/images/medical-therapies.png)
+  <img src="/assets/images/medical-therapies.png"
+       alt="Medical Therapies">
 </div>
 
 ## Environmental Biotechnologies
@@ -72,5 +73,6 @@ Our lab applies synthetic biology to monitor and remediate environmental challen
 By combining dynamic modeling, circuit design, and experimental validation, we optimize microbial performance for practical environmental applications.
 
 <div style="display: flex; justify-content: center;">
-![Environmental Biotechnologies](/assets/images/environmental-biotech.png)
+  <img src="/assets/images/environmental-biotech.png"
+       alt="Environmental Biotechnologies">
 </div>

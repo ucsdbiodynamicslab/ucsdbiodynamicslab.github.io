@@ -6,6 +6,7 @@
     - Physics
     - Biology
   scholar: /people/jeff-hasty/
+  scholar_new_tab: false
   role: Faculty
 
 - name: Lev Tsimring
@@ -15,6 +16,7 @@
     - Dynamical Modeling
     - Art in the Patterns of Life
   scholar: /people/lev-tsimring/
+  scholar_new_tab: false
   role: Faculty
 
 - name: Camilo Rey-Bedón
@@ -234,6 +236,7 @@
   interests:
     - Bioengineering Research Scientist, UCSD
   scholar: /people/rob-cooper/
+  scholar_new_tab: false
   role: Collaborator
 
 - name: Dr. Nan Hao
@@ -242,6 +245,7 @@
   interests:
     - Professor of Molecular Biology, UCSD
   scholar: /people/nan-hao/
+  scholar_new_tab: false
   role: Collaborator
 
 - name: Dr. Dan Worthley
@@ -258,4 +262,5 @@
   interests:
     - Founding Director of the Center for Microbiome Innovation and Professor of Pediatrics and Computer Science & Engineering, UCSD
   scholar: /people/rob-knight/
+  scholar_new_tab: false
   role: Collaborator
