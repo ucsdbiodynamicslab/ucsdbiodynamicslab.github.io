@@ -5,7 +5,7 @@
     - Bioengineering
     - Physics
     - Biology
-  scholar: https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en&oi=ao
+  scholar: /people/jeff-hasty/
   role: Faculty
 
 - name: Lev Tsimring
@@ -14,7 +14,7 @@
   interests:
     - Dynamical Modeling
     - Art in the Patterns of Life
-  scholar: https://scholar.google.com/citations?user=Muw0HmEAAAAJ&hl=en&oi=ao
+  scholar: /people/lev-tsimring/
   role: Faculty
 
 - name: Camilo Rey-Bedón
@@ -235,7 +235,7 @@
   alt_photo: /assets/images/biodynamics/portraits/robCFun.jpeg
   interests:
     - Bioengineering Research Scientist, UCSD
-  scholar: 
+  scholar: /people/rob-cooper/
   role: Collaborator
 
 - name: Dr. Nan Hao
@@ -243,7 +243,7 @@
   alt_photo: /assets/images/biodynamics/portraits/nan.png
   interests:
     - Professor of Molecular Biology, UCSD
-  scholar: 
+  scholar: /people/nan-hao/
   role: Collaborator
 
 - name: Dr. Dan Worthley
@@ -251,7 +251,7 @@
   alt_photo: /assets/images/biodynamics/portraits/danFun.jpeg
   interests:
     - Gastroenterologist, Colonoscopy Clinic, Queensland, Australia
-  scholar: 
+  scholar: https://scholar.google.com/citations?user=HXsK4KIAAAAJ&hl=en&oi=ao
   role: Collaborator
 
 - name: Dr. Rob Knight
@@ -259,5 +259,5 @@
   alt_photo: /assets/images/biodynamics/portraits/robK.png
   interests:
     - Founding Director of the Center for Microbiome Innovation and Professor of Pediatrics and Computer Science & Engineering, UCSD
-  scholar: 
+  scholar: /people/rob-knight/
   role: Collaborator
