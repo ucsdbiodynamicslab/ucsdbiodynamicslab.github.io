@@ -1,5 +1,5 @@
 ---
-title: News
+title: Biodynamics News
 description: stories of genes, circuits, and the people who design them
 permalink: /biodynamics/news/
 background: /assets/images/microfluidics-scaled.jpg
