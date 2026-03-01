@@ -8,7 +8,7 @@ comments: false # See posts
 published: true # See posts
 ---
 
-## The BioDynamics Laboratory (BDL) focuses on the use of engineering methods in the theoretical design and experimental construction of synthetic gene networks.
+## The Biodynamics Laboratory focuses on the use of engineering methods in the theoretical design and experimental construction of synthetic gene networks.
 
 <div class="container mt-4">
 
