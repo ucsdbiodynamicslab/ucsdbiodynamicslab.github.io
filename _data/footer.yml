@@ -17,7 +17,14 @@ columns:
 #      See [`_data/footer.yml`](https://raw.githubusercontent.com/peterdesmet/petridish/master/_data/footer.yml)
 #      to customize this text.
 #    links:
-
+    - description: Drop By
+        <br> Bonner Hall 2121 <br>
+        UCSD Biological Sciences and Bioengineering
+    - description: Contact Us
+        <br> (858) 534-9899
+      links:
+      - text: Interested in joining the lab?
+        href: /biodynamics/join/
 # Small print license statement to add at the bottom of the footer. Can be Markdown
 # Will be prefixed by "© {{ site.author }}" if defined in _config.yml
 license: >

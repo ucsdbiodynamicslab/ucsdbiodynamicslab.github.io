@@ -51,10 +51,11 @@ At its core, synthetic biology seeks to redesign living systems to perform usefu
     </div>
 
     <div class="col-auto">
-      <a href="/research/" class="btn btn-outline-dark btn-lg px-5 py-3 mx-3">
-        Research
+      <a href="/news/" class="btn btn-outline-dark btn-lg px-5 py-3 mx-3">
+        News
       </a>
     </div>
+
 
   </div>
 

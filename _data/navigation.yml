@@ -9,7 +9,7 @@
 - text: Labs
   menu: # Dropdown menu (one level deep only)
   - text: Biodynamics Lab
-    href: /people/jeff-hasty/
+    href: /biodynamics/home/
   - text: Hao Lab
     href: /people/nan-hao/
   - text: Coopabacter Labyi
