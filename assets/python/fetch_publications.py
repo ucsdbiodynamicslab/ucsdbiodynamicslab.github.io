@@ -3,8 +3,9 @@ import yaml
 import time
 from pathlib import Path
 from datetime import datetime
+import os
 
-API_KEY = "jPcF0IbN4242Nvs7l2SJy9VSinrVjyIiEs8GLGFe"
+API_KEY = os.environ.get("S2_API_KEY")
 
 AUTHOR_IDS = [
     "2916647",
