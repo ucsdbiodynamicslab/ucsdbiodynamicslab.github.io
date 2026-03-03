@@ -16,4 +16,4 @@ Send [Jeff](/people/jeff-hasty/) an email, along with your CV. If you are intere
 We often have openings for undergraduates looking for research experience that qualifies as course credit (199). Given the significant investment in training, along with monthly expenses associated with supplies and other consumables, we are typically looking for sophomores or juniors (or even freshmen) who are interested in joining early and staying until graduation. Fill out [this form](https://forms.gle/wAohzUochbS3ibzq5) with your CV, and if an opening is available, I will pass it along to the lab’s graduate students and postdocs for consideration.
 
 ## Visiting Scholars
-Send a CV to Jeff with CCs to our collaborators Lev Tsimring and to Terry Peters, who is the administrative contact in the [Synthetic Biology Institute](/).
+Send a CV to Jeff with CCs to our collaborators Lev Tsimring and to Tahira Mershon, who is the administrative contact in the [Synthetic Biology Institute](/).
