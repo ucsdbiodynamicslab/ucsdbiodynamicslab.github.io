@@ -1,7 +1,7 @@
 ---
 title: Biodynamics Laboratory
 navigation: biodynamics-navigation
-permalink: /biodynamics/home/
+permalink: /biodynamics/
 background: /assets/images/microfluidics-scaled.jpg
 toc: false
 comments: false # See posts
