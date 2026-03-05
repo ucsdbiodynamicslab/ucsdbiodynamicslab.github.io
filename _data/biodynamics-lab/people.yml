@@ -220,6 +220,13 @@
   scholar: 
   role: Undergraduate Student
 
+- name: Maxwell Schwendiger
+  interests:
+    - Microbiology
+    - Genetics
+  scholar: 
+  role: Undergraduate Student
+
 - name: Emerald Forrest
   photo: /assets/images/biodynamics/portraits/emerald.jpeg
   alt_photo: /assets/images/biodynamics/portraits/emeraldFun.jpg

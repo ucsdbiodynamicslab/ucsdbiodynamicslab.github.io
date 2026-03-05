@@ -30,7 +30,7 @@ comments: false
       <ul class="list-inline mt-3">
 
         <li class="list-inline-item me-3">
-          <a href="/biodynamics/home/" target="_blank" title="Lab Website">
+          <a href="/biodynamics/" target="_blank" title="Lab Website">
             <i class="fa-solid fa-globe me-1"></i> Lab Website
           </a>
         </li>
