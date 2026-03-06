@@ -2,23 +2,30 @@
 permalink: /404.html
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div id="random-404"></div>
 
-<div class="container">
-  <h1>404</h1>
+<script>
+const pages = [
+  "/pages/404_variants/chip.html",
+  "/pages/404_variants/contaminated.html",
+  "/pages/404_variants/gene.html",
+  "/pages/404_variants/notebook.html",
+  "/pages/404_variants/pcr.html",
+  "/pages/404_variants/phase.html",
+  "/pages/404_variants/plasmid.html",
+  "/pages/404_variants/terminal.html",
+  "/pages/404_variants/microscope.html"
+];
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+const choice = pages[Math.floor(Math.random() * pages.length)];
+
+fetch(choice)
+  .then(response => response.text())
+  .then(html => {
+    document.getElementById("random-404").innerHTML = html;
+  })
+  .catch(() => {
+    document.getElementById("random-404").innerHTML =
+      "<h1>404</h1><p>Page not found.</p>";
+  });
+</script>
