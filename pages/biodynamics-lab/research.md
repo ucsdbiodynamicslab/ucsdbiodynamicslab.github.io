@@ -1,6 +1,6 @@
 ---
 title: Research
-description: princples and applications of dynamics in systems and synthetic biology
+description: principles and applications of dynamics in systems and synthetic biology
 navigation: biodynamics-navigation
 permalink: /biodynamics/research/
 background: /assets/images/microfluidics-scaled.jpg

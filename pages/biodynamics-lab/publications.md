@@ -1,6 +1,6 @@
 ---
 title: Publications
-description: 
+description: ciruits that oscillate and populations that cooperate
 navigation: biodynamics-navigation
 permalink: /biodynamics/publications/
 background: /assets/images/microfluidics-scaled.jpg
