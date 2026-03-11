@@ -51,7 +51,6 @@ University of California San Diego
 
 <p class="mt-3 mb-0">
 Tel: (858) 534-0816<br>
-Fax: (858) 534-1892
 </p>
 
 </div>
