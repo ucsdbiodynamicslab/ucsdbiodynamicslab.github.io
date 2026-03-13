@@ -56,7 +56,7 @@ University of California San Diego
 </p>
 
 <p class="mt-3 mb-0">
-<i class="fa-solid fa-phone-rotary me-1"></i> (858) 534-0816
+<i class="fa-solid fa-phone me-1"></i> (858) 534-0816
 <br>
 </p>
 
