@@ -23,7 +23,7 @@ comments: false
 
       <p class="mb-2">
         <strong>Paul A Libby Endowed Chair, Professor Jeff Hasty</strong><br>
-        Departments of Molecular Biology and Bioengineering<br>
+        Departments of Bioengineering and Molecular Biology<br>
         University of California San Diego
       </p>
 
