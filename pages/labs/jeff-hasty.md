@@ -41,6 +41,19 @@ comments: false
           </a>
         </li>
 
+        <li class="list-inline-item me-3">
+          <a href="https://orcid.org/0000-0003-1673-0473" target="_blank" title="ORCiD">
+            <i class="fa-brands fa-orcid"></i> ORCiD
+          </a>
+        </li>
+
+        <li class="list-inline-item me-3">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=hasty+j" target="_blank" title="PubMed">
+            <i class="fa-solid fa-book"></i> PubMed
+          </a>
+        </li>
+        
+
         <li class="list-inline-item">
           <a href="mailto:jhasty@ucsd.edu" title="Email">
             <i class="fa-regular fa-envelope me-1"></i> Email
