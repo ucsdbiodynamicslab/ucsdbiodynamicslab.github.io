@@ -36,8 +36,8 @@ comments: false
         </li>
 
         <li class="list-inline-item me-3">
-          <a href="https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar">
-            <i class="fa-brands fa-google-scholar me-1"></i> Google Scholar
+          <a href="https://jeffhasty.github.io/HastyCV/hastyCV.pdf" target="_blank" title="Curriculum Vitae">
+            <i class="fa-solid fa-address-book me-1"></i> Curriculum Vitae
           </a>
         </li>
 
