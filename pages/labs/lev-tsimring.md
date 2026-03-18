@@ -42,7 +42,7 @@ University of California San Diego
 </li>
 
 <li class="list-inline-item me-3">
-<a href="lev_stuff/cv.html" target="_blank">
+<a href="https://github.com/ltsimring/TsimringCV/blob/main/Lev_Tsimring_CV.pdf" target="_blank">
 <i class="fa-solid fa-address-book me-1"></i> CV
 </a>
 </li>
