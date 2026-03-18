@@ -36,10 +36,23 @@ comments: false
         </li>
 
         <li class="list-inline-item me-3">
-          <a href="https://scholar.google.com/citations?user=5rjhaooAAAAJ&hl=en&oi=ao" target="_blank" title="Google Scholar">
-            <i class="fa-brands fa-google-scholar me-1"></i> Google Scholar
+          <a href="https://jeffhasty.github.io/HastyCV/hastyCV.pdf" target="_blank" title="Curriculum Vitae">
+            <i class="fa-solid fa-address-book me-1"></i> Curriculum Vitae
           </a>
         </li>
+
+        <li class="list-inline-item me-3">
+          <a href="https://orcid.org/0000-0003-1673-0473" target="_blank" title="ORCiD">
+            <i class="fa-brands fa-orcid"></i> ORCiD
+          </a>
+        </li>
+
+        <li class="list-inline-item me-3">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=hasty+j" target="_blank" title="PubMed">
+            <i class="fa-solid fa-book"></i> PubMed
+          </a>
+        </li>
+        
 
         <li class="list-inline-item">
           <a href="mailto:jhasty@ucsd.edu" title="Email">
