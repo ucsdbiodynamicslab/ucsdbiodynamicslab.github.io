@@ -1,0 +1,14 @@
+columns:
+  - description: |
+      ### Drop By
+      <a href="https://maps.app.goo.gl/K7kJ5L8Z9btDZyN67" target="_blank" rel="noopener noreferrer">Bonner Hall 2121</a> \
+      \
+      UCSD Biological Sciences and Bioengineering
+
+  - description: |
+      ### Contact Us
+      (858) 534-9899
+
+    links:
+      - text: Interested in joining the lab?
+        href: /biodynamics/join/

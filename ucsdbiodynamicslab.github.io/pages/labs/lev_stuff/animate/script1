@@ -1,0 +1,27 @@
+#!/bin/csh
+if ($#argv != 4) then
+    echo "This script translates fort file into JPEG format"
+    echo "It uses fort2bins bin2lug routines"
+    echo "Usage:  script in_file frame-prefix first_frame last_frame"
+    echo "Example: script a.dat frame 1 30"
+    exit
+endif
+
+unalias rm
+unset noclobber
+
+rm $2.ani
+
+@ ncount=$3
+@ maxframe = $4
+
+fort2bins $1 $2 -f$4 -x64 -y64
+
+while ( $ncount <= $maxframe)
+    echo "Doing frame $ncount"
+	echo "$2.$ncount.gif 0" >> $2.ani
+    bin2lug1 $2.$ncount.bin $2.$ncount.jpg 64 64
+#    cjpeg $2.$ncount.ppm > $2.$ncount.jpg
+    rm -f $1.$ncount.bin
+    @ ncount = $ncount + 1
+end

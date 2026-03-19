@@ -1,0 +1,53 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.7 [en] (X11; I; Linux 2.2.5-15 i686) [Netscape]">
+   <title>Shallow Fluidized Bed</title>
+</head>
+<body>
+
+<center>
+<h1>
+<font color="#0000FF">Dynamics of Shallow Fluidized Bed</font></h1></center>
+
+<center>
+<h3>
+<font color="#0000FF">1999</font></h3></center>
+
+<center>
+<h3>
+<font color="#000099">Cellular Automata Model</font></h3></center>
+Fluidization of a shallow bed can be described as a combination of two
+simultaneous precesses: <b><font color="#CC0000">levitation</font></b><font color="#CC0000">
+</font>and <b><font color="#CC0000">relaxation</font> </b>. Levitation
+occurs if the air drag force exceeds the weight of a stack of grains, and
+relaxation occurs if the local slope of the surface is greater than certain
+threshold. We simulate these processes using discrete-time, discrete-space,
+and discrete-state Cellular automata model shown below.
+<center>
+<p><img SRC="CA.gif" ></center>
+
+<p>In this model, we alternate levitation and relaxation steps.
+First, we "earmark" all sites with local height below threshold value Tr
+(a). Then we move simultaneously top grains at these sites to the left or to
+the right column at random (b). This constitues the levitation step. At
+the relaxation step we check if the difference between neighboring sites
+is greater than certain other threshold and if so, we "slide" the grain
+downhill (c). It turns out that near the onset of fluidization this model
+is equivalent to the classic random walk. Below some typical plots illustrating
+CA dynamics near the fluidization threshold, are shown.
+<center>
+<p><a href="CAplots.gif"><img SRC="CAplots_small.gif" ></a>
+<br>Cellular Automata simulation
+<p><a href="decay.gif"><img SRC="decay_small.gif" ></a>
+<br>Temporal evolution of the number of active sites for different
+values of the average number of particles per site</center>
+<p>
+For more technical details see <a href="/pages/labs/lev_stuff/papers/gran/gran6.pdf">L.S.Tsimring,
+R.Ramaswamy, and P.Sherman. Dynamics of a shallow fluidized bed,
+<i>Phys.
+Rev. E</i>, <b>60</b>, 7126-7130 (1999).</a>
+<hr size=4 width=100%>
+</body>
+</html>
