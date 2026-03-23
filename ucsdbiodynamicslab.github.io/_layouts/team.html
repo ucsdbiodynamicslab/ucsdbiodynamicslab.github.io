@@ -25,7 +25,7 @@ description: Template for team page.
           {% endif %}
     </div>
     <div>
-    {% if member.link %}
+        {% if member.link %}
         <a href="{{ member.link | relative_url }}" style="color: black;">
     {% endif %}
       <h5 id="{{ member.name | strip | url_encode }}">
