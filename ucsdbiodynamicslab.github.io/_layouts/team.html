@@ -14,17 +14,29 @@ description: Template for team page.
 {% for member in team %}
   <div class="d-flex team-member">
     <div class="flex-shrink-0 me-3">
+        {% if member.link %}
+        <a href="{{ member.link | relative_url }}">
+            {% endif %}
       {% if member.image %}
         <img src="{{ member.image | relative_url }}" alt="{{ member.name }}">
       {% endif %}
+      {% if member.link %}
+      </a>
+          {% endif %}
     </div>
     <div>
+    {% if member.link %}
+        <a href="{{ member.link | relative_url }}" style="color: black;">
+    {% endif %}
       <h5 id="{{ member.name | strip | url_encode }}">
         {{ member.name }}
         {% if member.role %}
           <small class="text-muted">| {{ member.role }}</small>
         {% endif %}
       </h5>
+      {% if member.link %}
+          </a>
+      {% endif %}
 
       {{ member.description | markdownify }}
 
