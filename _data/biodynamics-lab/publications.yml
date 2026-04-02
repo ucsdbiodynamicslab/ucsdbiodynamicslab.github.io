@@ -290,7 +290,7 @@
   authors:
   - Georgette Radford
   - L. Vrbanac
-  - Rebekah T de Nys
+  - R. de Nys
   - Daniel L. Worthley
   - Josephine A. Wright
   - J. Hasty
@@ -1449,6 +1449,21 @@
   year: 2011
   link: https://doi.org/10.1016/B978-0-12-385075-1.00014-7
   pubID: MicrofluidicsForSyntheticBiologyFromDesignToExecution
+- title: 'Queueing up for enzymatic processing: correlated signaling through coupled
+    degradation'
+  journal: Molecular Systems Biology
+  authors:
+  - Natalie A. Cookson
+  - W. Mather
+  - Tal Danino
+  - O. Mondragón-Palomino
+  - Ruth J. Williams
+  - Lev S. Tsimring
+  - J. Hasty
+  publication_date: '2011-12-20'
+  year: 2011
+  link: https://doi.org/10.1038/msb.2011.94
+  pubID: QueueingUpForEnzymaticProcessingCorrelatedSignalingThroughCoupledDegradation
 - title: Buckling instability in ordered bacterial colonies
   journal: Physical Biology
   authors:
