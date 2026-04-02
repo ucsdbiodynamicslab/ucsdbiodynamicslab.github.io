@@ -7,7 +7,6 @@
   publication_date: '2026-01-28'
   year: 2026
   link: https://doi.org/10.1186/s13059-026-03951-0
-  pubID: RationalEngineeringOfCombinatorialBacterialTherapiesForCancer
 - title: 'BudFinder: A Masked Auto-Encoder Vision Transformer Framework for Yeast
     Budding Detection'
   journal: bioRxiv
@@ -22,7 +21,6 @@
   publication_date: '2025-11-05'
   year: 2025
   link: https://doi.org/10.1101/2025.11.04.686463
-  pubID: BudfinderAMaskedAutoEncoderVisionTransformerFrameworkForYeastBuddingDetection
 - title: Evolved microbial diversity enables combinatoric biosensing in complex environments
   journal: bioRxiv
   authors:
@@ -44,7 +42,6 @@
   publication_date: '2025-03-25'
   year: 2025
   link: https://doi.org/10.1101/2025.03.24.645055
-  pubID: EvolvedMicrobialDiversityEnablesCombinatoricBiosensingInComplexEnvironments
 - title: SARS-CoV-2 infectivity can be modulated through bacterial grooming of the
     glycocalyx
   journal: mBio
@@ -117,7 +114,6 @@
   publication_date: '2025-02-25'
   year: 2025
   link: https://doi.org/10.1128/mbio.04015-24
-  pubID: SarsCov2InfectivityCanBeModulatedThroughBacterialGroomingOfTheGlycocalyx
 - title: Bacteria as living biosensors for DNA
   journal: Nature Reviews Bioengineering
   authors:
@@ -129,7 +125,6 @@
   publication_date: '2025-10-30'
   year: 2025
   link: https://doi.org/10.1038/s44222-025-00369-4
-  pubID: BacteriaAsLivingBiosensorsForDna
 - title: Calculating fast differential genome coverages among metagenomic sources
     using micov
   journal: Communications Biology
@@ -152,7 +147,6 @@
   publication_date: '2025-11-20'
   year: 2025
   link: https://doi.org/10.1038/s42003-025-09007-6
-  pubID: CalculatingFastDifferentialGenomeCoveragesAmongMetagenomicSourcesUsingMicov
 - title: Metatranscriptomics Uncover Diurnal Functional Shifts in Bacterial Transgenes
     with Profound Metabolic Effects.
   journal: Cell host & microbe
@@ -177,7 +171,6 @@
   publication_date: '2025-06-01'
   year: 2025
   link: https://doi.org/10.1016/j.chom.2025.05.024
-  pubID: MetatranscriptomicsUncoverDiurnalFunctionalShiftsInBacterialTransgenesWithProfoundMetabolicEffects
 - title: '31: METATRANSCRIPTOMICS REVEALS BACTERIAL TRANSGENES CONFERRING THE BENEFICIAL
     METABOLIC EFFECTS OF TIMERESTRICTED FEEDING'
   journal: Gastroenterology
@@ -201,7 +194,6 @@
   publication_date: '2025-05-01'
   year: 2025
   link: https://doi.org/10.1016/s0016-5085(25)00992-8
-  pubID: 31MetatranscriptomicsRevealsBacterialTransgenesConferringTheBeneficialMetabolicEffectsOfTimerestrictedFeeding
 - title: Enhanced cellular longevity arising from environmental fluctuations.
   journal: Cell systems
   authors:
@@ -217,7 +209,6 @@
   publication_date: '2024-08-01'
   year: 2024
   link: https://doi.org/10.1016/j.cels.2024.07.007
-  pubID: EnhancedCellularLongevityArisingFromEnvironmentalFluctuations
 - title: Phenotypic Patterning through Copy Number Adaptation to Environmental Gradients.
   journal: ACS synthetic biology
   authors:
@@ -232,7 +223,6 @@
   publication_date: '2024-02-08'
   year: 2024
   link: https://doi.org/10.1021/acssynbio.3c00617
-  pubID: PhenotypicPatterningThroughCopyNumberAdaptationToEnvironmentalGradients
 - title: Engineering plasmid copy number heterogeneity for dynamic microbial adaptation
   journal: Nature Microbiology
   authors:
@@ -242,7 +232,6 @@
   publication_date: '2024-06-18'
   year: 2024
   link: https://doi.org/10.1038/s41564-024-01706-w
-  pubID: EngineeringPlasmidCopyNumberHeterogeneityForDynamicMicrobialAdaptation
 - title: Host evolution improves genetic circuit function in complex growth environments
   journal: bioRxiv
   authors:
@@ -256,7 +245,6 @@
   publication_date: '2024-03-13'
   year: 2024
   link: https://doi.org/10.1101/2024.03.13.583595
-  pubID: HostEvolutionImprovesGeneticCircuitFunctionInComplexGrowthEnvironments
 - title: Engineered bacterial therapeutics for detecting and treating CRC.
   journal: Trends in cancer
   authors:
@@ -273,7 +261,6 @@
   publication_date: '2024-04-01'
   year: 2024
   link: https://doi.org/10.1016/j.trecan.2024.04.001
-  pubID: EngineeredBacterialTherapeuticsForDetectingAndTreatingCrc
 - title: Live bacterial therapeutics for detection and treatment of colorectal cancer
   journal: Nature Reviews Gastroenterology & Hepatology
   authors:
@@ -283,7 +270,6 @@
   publication_date: '2024-02-14'
   year: 2024
   link: https://doi.org/10.1038/s41575-024-00901-8
-  pubID: LiveBacterialTherapeuticsForDetectionAndTreatmentOfColorectalCancer
 - title: Towards Understanding Tumour Colonisation by Probiotic Bacterium E. coli
     Nissle 1917
   journal: Cancers
@@ -298,7 +284,6 @@
   publication_date: '2024-08-26'
   year: 2024
   link: https://doi.org/10.3390/cancers16172971
-  pubID: TowardsUnderstandingTumourColonisationByProbioticBacteriumEColiNissle1917
 - title: Exploiting heterogeneity in coupled, two plasmid systems for dynamic population
     adaptation
   journal: bioRxiv
@@ -309,7 +294,6 @@
   publication_date: '2023-02-19'
   year: 2023
   link: https://doi.org/10.1101/2023.02.19.529072
-  pubID: ExploitingHeterogeneityInCoupledTwoPlasmidSystemsForDynamicPopulationAdaptation
 - title: 'Stability, robustness, and containment: preparing synthetic biology for
     real-world deployment.'
   journal: Current opinion in biotechnology
@@ -319,7 +303,6 @@
   publication_date: '2023-01-06'
   year: 2023
   link: https://doi.org/10.1016/j.copbio.2022.102880
-  pubID: StabilityRobustnessAndContainmentPreparingSyntheticBiologyForRealWorldDeployment
 - title: Engineering longevity—design of a synthetic gene oscillator to slow cellular
     aging
   journal: Science
@@ -335,7 +318,6 @@
   publication_date: '2023-04-28'
   year: 2023
   link: https://doi.org/10.1126/science.add7631
-  pubID: EngineeringLongevityDesignOfASyntheticGeneOscillatorToSlowCellularAging
 - title: Engineered bacteria detect tumor DNA
   journal: Science
   authors:
@@ -358,7 +340,6 @@
   publication_date: '2023-08-11'
   year: 2023
   link: https://doi.org/10.1126/science.adf3974
-  pubID: EngineeredBacteriaDetectTumorDna
 - title: Divergent metabolic programmes control two populations of MAIT cells that
     protect the lung
   journal: Nature Cell Biology
@@ -383,7 +364,6 @@
   publication_date: '2023-05-25'
   year: 2023
   link: https://doi.org/10.1038/s41556-023-01152-6
-  pubID: DivergentMetabolicProgrammesControlTwoPopulationsOfMaitCellsThatProtectTheLung
 - title: Enhanced cellular longevity arising from environmental fluctuations
   journal: bioRxiv
   authors:
@@ -398,7 +378,6 @@
   publication_date: '2023-07-07'
   year: 2023
   link: https://doi.org/10.1101/2023.07.05.547867
-  pubID: EnhancedCellularLongevityArisingFromEnvironmentalFluctuations
 - title: Fabrication of Microfluidic Devices for Continuously Monitoring Yeast Aging
   journal: Bio-protocol
   authors:
@@ -409,7 +388,6 @@
   publication_date: '2023-08-05'
   year: 2023
   link: https://doi.org/10.21769/BioProtoc.4782
-  pubID: FabricationOfMicrofluidicDevicesForContinuouslyMonitoringYeastAging
 - title: High-resolution temporal profiling of E. coli transcriptional response
   journal: Nature Communications
   authors:
@@ -422,7 +400,6 @@
   publication_date: '2023-11-22'
   year: 2023
   link: https://doi.org/10.1038/s41467-023-43173-7
-  pubID: HighResolutionTemporalProfilingOfEColiTranscriptionalResponse
 - title: Design of synthetic bacterial biosensors.
   journal: Current opinion in microbiology
   authors:
@@ -431,7 +408,6 @@
   publication_date: '2023-09-11'
   year: 2023
   link: https://doi.org/10.1016/j.mib.2023.102380
-  pubID: DesignOfSyntheticBacterialBiosensors
 - title: A Microfluidic Platform for Screening Gene Expression Dynamics across Yeast
     Strain Libraries
   journal: Bio-protocol
@@ -445,7 +421,6 @@
   publication_date: '2023-11-20'
   year: 2023
   link: https://doi.org/10.21769/BioProtoc.4883
-  pubID: AMicrofluidicPlatformForScreeningGeneExpressionDynamicsAcrossYeastStrainLibraries
 - title: A Standardized Set of MoClo-Compatible Inducible Promoter Systems for Tunable
     Gene Expression in Yeast.
   journal: ACS synthetic biology
@@ -460,7 +435,6 @@
   publication_date: '2023-12-11'
   year: 2023
   link: https://doi.org/10.1021/acssynbio.3c00184
-  pubID: AStandardizedSetOfMocloCompatibleInduciblePromoterSystemsForTunableGeneExpressionInYeast
 - title: 'Synthetic Gene Circuits: Design, Implement, and Apply'
   journal: Proceedings of the IEEE
   authors:
@@ -470,7 +444,6 @@
   publication_date: '2022-05-01'
   year: 2022
   link: https://doi.org/10.1109/jproc.2021.3134169
-  pubID: SyntheticGeneCircuitsDesignImplementAndApply
 - title: 'Design, mutate, screen: Multiplexed creation and arrayed screening of synchronized
     genetic clocks.'
   journal: Cell systems
@@ -481,7 +454,6 @@
   publication_date: '2022-03-01'
   year: 2022
   link: https://doi.org/10.1016/j.cels.2022.02.005
-  pubID: DesignMutateScreenMultiplexedCreationAndArrayedScreeningOfSynchronizedGeneticClocks
 - title: Nutrient Gradients Mediate Complex Colony-Level Antibiotic Responses in Structured
     Microbial Populations
   journal: Frontiers in Microbiology
@@ -495,7 +467,6 @@
   publication_date: '2022-04-27'
   year: 2022
   link: https://doi.org/10.3389/fmicb.2022.740259
-  pubID: NutrientGradientsMediateComplexColonyLevelAntibioticResponsesInStructuredMicrobialPopulations
 - title: Nutrient gradients mediate creation of highly resistant layers in structured
     microbial populations during antibiotic exposures
   journal: bioRxiv
@@ -509,7 +480,6 @@
   publication_date: '2022-02-02'
   year: 2022
   link: https://doi.org/10.1101/2022.02.02.478895
-  pubID: NutrientGradientsMediateCreationOfHighlyResistantLayersInStructuredMicrobialPopulationsDuringAntibioticExposures
 - title: Age-dependent aggregation of ribosomal RNA-binding proteins links deterioration
     in chromatin stability with challenges to proteostasis
   journal: eLife
@@ -531,7 +501,6 @@
   publication_date: '2022-10-04'
   year: 2022
   link: https://doi.org/10.7554/eLife.75978
-  pubID: AgeDependentAggregationOfRibosomalRnaBindingProteinsLinksDeteriorationInChromatinStabilityWithChallengesToProteostasis
 - title: Rapid, Affordable, and Uncomplicated Production of Bacterial Cell-free Lysate.
   journal: 'Journal of visualized experiments : JoVE'
   authors:
@@ -542,7 +511,6 @@
   publication_date: '2021-10-29'
   year: 2021
   link: https://doi.org/10.3791/62753
-  pubID: RapidAffordableAndUncomplicatedProductionOfBacterialCellFreeLysate
 - title: Engineered bacteria detect tumor DNA
   journal: bioRxiv
   authors:
@@ -565,7 +533,6 @@
   publication_date: '2021-09-11'
   year: 2021
   link: https://doi.org/10.1101/2021.09.10.459858
-  pubID: EngineeredBacteriaDetectTumorDna
 - title: 'Design, Mutate, Screen: High-throughput creation of genetic clocks with
     different period-amplitude characteristics'
   journal: bioRxiv
@@ -576,7 +543,6 @@
   publication_date: '2021-06-22'
   year: 2021
   link: https://doi.org/10.1101/2021.06.22.449269
-  pubID: DesignMutateScreenHighThroughputCreationOfGeneticClocksWithDifferentPeriodAmplitudeCharacteristics
 - title: Rapid Assembly of Multiplex Natural CRISPR Arrays
   journal: Springer Protocols Handbooks
   authors:
@@ -585,7 +551,6 @@
   publication_date: null
   year: 2021
   link: https://doi.org/10.1007/978-1-0716-1657-4_6
-  pubID: RapidAssemblyOfMultiplexNaturalCrisprArrays
 - title: Multiplexed screening of population-level synthetic gene oscillator libraries
   journal: null
   authors:
@@ -595,7 +560,6 @@
   publication_date: null
   year: 2021
   link: https://www.semanticscholar.org/paper/67171b4ede6e2e353ee7355f5f192184c9625064
-  pubID: MultiplexedScreeningOfPopulationLevelSyntheticGeneOscillatorLibraries
 - title: Age-dependent aggregation of ribosomal RNA-binding proteins links deterioration
     in chromatin stability with loss of proteostasis
   journal: bioRxiv
@@ -616,7 +580,6 @@
   publication_date: '2021-12-06'
   year: 2021
   link: https://doi.org/10.1101/2021.12.06.471495
-  pubID: AgeDependentAggregationOfRibosomalRnaBindingProteinsLinksDeteriorationInChromatinStabilityWithLossOfProteostasis
 - title: Intestinal transgene delivery with native E. coli chassis allows persistent
     physiological changes
   journal: Cell
@@ -641,7 +604,6 @@
   publication_date: '2021-11-12'
   year: 2021
   link: https://doi.org/10.1101/2021.11.11.468006
-  pubID: IntestinalTransgeneDeliveryWithNativeEColiChassisAllowsPersistentPhysiologicalChanges
 - title: The microbiome and human cancer
   journal: Science
   authors:
@@ -654,7 +616,6 @@
   publication_date: '2021-03-26'
   year: 2021
   link: https://doi.org/10.1126/science.abc4552
-  pubID: TheMicrobiomeAndHumanCancer
 - title: CRISPR-Cas Inhibits Natural Transformation Through Altruistic Group Defense
     and Self-Sacrifice
   journal: bioRxiv
@@ -664,7 +625,6 @@
   publication_date: '2021-09-16'
   year: 2021
   link: https://doi.org/10.1101/2021.09.16.460680
-  pubID: CrisprCasInhibitsNaturalTransformationThroughAltruisticGroupDefenseAndSelfSacrifice
 - title: Interfacing gene circuits with microelectronics through engineered population
     dynamics
   journal: Science Advances
@@ -677,7 +637,6 @@
   publication_date: '2020-05-01'
   year: 2020
   link: https://doi.org/10.1126/sciadv.aaz8344
-  pubID: InterfacingGeneCircuitsWithMicroelectronicsThroughEngineeredPopulationDynamics
 - title: 'Publisher''s Note: Suppression of Beneficial Mutations in Dynamic Microbial
     Populations [Phys. Rev. Lett. 118, 028102 (2017)].'
   journal: Physical review letters
@@ -688,7 +647,6 @@
   publication_date: '2020-09-30'
   year: 2020
   link: https://doi.org/10.1103/PhysRevLett.125.149901
-  pubID: PublisherSNoteSuppressionOfBeneficialMutationsInDynamicMicrobialPopulationsPhysRevLett1180281022017
 - title: Survival of the weakest in non-transitive asymmetric interactions among strains
     of E. coli
   journal: Nature Communications
@@ -701,7 +659,6 @@
   publication_date: '2020-11-27'
   year: 2020
   link: https://doi.org/10.1038/s41467-020-19963-8
-  pubID: SurvivalOfTheWeakestInNonTransitiveAsymmetricInteractionsAmongStrainsOfEColi
 - title: Inducible cell-to-cell signaling for tunable dynamics in microbial communities
   journal: Nature Communications
   authors:
@@ -711,7 +668,6 @@
   publication_date: '2020-03-04'
   year: 2020
   link: https://doi.org/10.1038/s41467-020-15056-8
-  pubID: InducibleCellToCellSignalingForTunableDynamicsInMicrobialCommunities
 - title: One-Day Construction of Multiplex Arrays to Harness Natural CRISPR-Cas Systems.
   journal: ACS synthetic biology
   authors:
@@ -720,7 +676,6 @@
   publication_date: '2020-04-09'
   year: 2020
   link: https://doi.org/10.1021/acssynbio.9b00489
-  pubID: OneDayConstructionOfMultiplexArraysToHarnessNaturalCrisprCasSystems
 - title: Genetically engineered control of phenotypic structure in microbial colonies
   journal: Nature Microbiology
   authors:
@@ -731,7 +686,6 @@
   publication_date: '2020-04-13'
   year: 2020
   link: https://doi.org/10.1038/s41564-020-0686-0
-  pubID: GeneticallyEngineeredControlOfPhenotypicStructureInMicrobialColonies
 - title: A programmable fate decision landscape underlies single-cell aging in yeast
   journal: Science
   authors:
@@ -748,7 +702,6 @@
   publication_date: '2020-07-16'
   year: 2020
   link: https://doi.org/10.1126/science.aax9552
-  pubID: AProgrammableFateDecisionLandscapeUnderliesSingleCellAgingInYeast
 - title: Genome-scale transcriptional dynamics and environmental biosensing
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -763,7 +716,6 @@
   publication_date: '2020-01-23'
   year: 2020
   link: https://doi.org/10.1073/pnas.1913003117
-  pubID: GenomeScaleTranscriptionalDynamicsAndEnvironmentalBiosensing
 - title: Flower-like patterns in multi-species bacterial colonies
   journal: eLife
   authors:
@@ -776,7 +728,6 @@
   publication_date: '2020-01-14'
   year: 2020
   link: https://doi.org/10.7554/eLife.48885
-  pubID: FlowerLikePatternsInMultiSpeciesBacterialColonies
 - title: One-Day Construction Of Multiplex Arrays to Harness Natural CRISPR Systems
   journal: bioRxiv
   authors:
@@ -785,7 +736,6 @@
   publication_date: '2020-03-08'
   year: 2020
   link: https://doi.org/10.1101/2020.03.06.981316
-  pubID: OneDayConstructionOfMultiplexArraysToHarnessNaturalCrisprSystems
 - title: The Balance of Stromal BMP Signaling Mediated by GREM1 and ISLR Drives Colorectal
     Carcinogenesis
   journal: Gastroenterology
@@ -829,7 +779,6 @@
   publication_date: '2020-11-13'
   year: 2020
   link: https://doi.org/10.1053/j.gastro.2020.11.011
-  pubID: TheBalanceOfStromalBmpSignalingMediatedByGrem1AndIslrDrivesColorectalCarcinogenesis
 - title: 'Synthetic Biology: Building to learn so that we might learn to build'
   journal: Bulletin of the American Physical Society
   authors:
@@ -837,7 +786,6 @@
   publication_date: '2020-03-03'
   year: 2020
   link: https://www.semanticscholar.org/paper/fe9e2a7a965a9d1615617fcba02265f4b3ef241e
-  pubID: SyntheticBiologyBuildingToLearnSoThatWeMightLearnToBuild
 - title: An epigenetic landscape governs early fate decision in cellular aging
   journal: bioRxiv
   authors:
@@ -852,7 +800,6 @@
   publication_date: '2019-05-07'
   year: 2019
   link: https://doi.org/10.1101/630921
-  pubID: AnEpigeneticLandscapeGovernsEarlyFateDecisionInCellularAging
 - title: 'Rock-paper-scissors: Engineered population dynamics increase genetic stability'
   journal: Science
   authors:
@@ -863,7 +810,6 @@
   publication_date: '2019-09-05'
   year: 2019
   link: https://doi.org/10.1126/science.aaw0542
-  pubID: RockPaperScissorsEngineeredPopulationDynamicsIncreaseGeneticStability
 - title: Divergent Aging of Isogenic Yeast Cells Revealed through Single-Cell Phenotypic
     Dynamics.
   journal: Cell systems
@@ -879,7 +825,6 @@
   publication_date: '2019-03-01'
   year: 2019
   link: https://doi.org/10.1016/j.cels.2019.02.002
-  pubID: DivergentAgingOfIsogenicYeastCellsRevealedThroughSingleCellPhenotypicDynamics
 - title: Engineered phenotype patterns in microbial populations
   journal: bioRxiv
   authors:
@@ -890,7 +835,6 @@
   publication_date: '2019-03-12'
   year: 2019
   link: https://doi.org/10.1101/575068
-  pubID: EngineeredPhenotypePatternsInMicrobialPopulations
 - title: Artificial Cell on a Chip Integrated with Protein Degradation
   journal: 2019 IEEE 32nd International Conference on Micro Electro Mechanical Systems
     (MEMS)
@@ -902,7 +846,6 @@
   publication_date: null
   year: 2019
   link: https://doi.org/10.1109/MEMSYS.2019.8870666
-  pubID: ArtificialCellOnAChipIntegratedWithProteinDegradation
 - title: 'Author response: Flower-like patterns in multi-species bacterial colonies'
   journal: eLife
   authors:
@@ -915,7 +858,6 @@
   publication_date: '2019-10-21'
   year: 2019
   link: https://doi.org/10.7554/elife.48885.sa2
-  pubID: AuthorResponseFlowerLikePatternsInMultiSpeciesBacterialColonies
 - title: Flower-like patterns in multi-species biofilms
   journal: bioRxiv
   authors:
@@ -928,7 +870,6 @@
   publication_date: '2019-02-15'
   year: 2019
   link: https://doi.org/10.1101/550996
-  pubID: FlowerLikePatternsInMultiSpeciesBiofilms
 - title: Advances in quantitative biology methods for studying replicative aging in
     Saccharomyces cerevisiae
   journal: Translational medicine of aging
@@ -943,7 +884,6 @@
   publication_date: '2019-09-12'
   year: 2019
   link: https://doi.org/10.1016/j.tma.2019.09.002
-  pubID: AdvancesInQuantitativeBiologyMethodsForStudyingReplicativeAgingInSaccharomycesCerevisiae
 - title: Flavin-based metabolic cycles are integral features of growth and division
     in single yeast cells
   journal: Scientific Reports
@@ -957,7 +897,6 @@
   publication_date: '2018-12-01'
   year: 2018
   link: https://doi.org/10.1038/s41598-018-35936-w
-  pubID: FlavinBasedMetabolicCyclesAreIntegralFeaturesOfGrowthAndDivisionInSingleYeastCells
 - title: Microfluidics-Based Analysis of Contact-dependent Bacterial Interactions
   journal: Bio-protocol
   authors:
@@ -967,7 +906,6 @@
   publication_date: '2018-08-20'
   year: 2018
   link: https://doi.org/10.21769/BioProtoc.2970
-  pubID: MicrofluidicsBasedAnalysisOfContactDependentBacterialInteractions
 - title: 'Rational engineering of synthetic microbial systems: from single cells to
     consortia.'
   journal: Current opinion in microbiology
@@ -979,7 +917,6 @@
   publication_date: '2018-10-01'
   year: 2018
   link: https://doi.org/10.1016/j.mib.2018.02.009
-  pubID: RationalEngineeringOfSyntheticMicrobialSystemsFromSingleCellsToConsortia
 - title: Multigenerational silencing dynamics control cell aging
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -994,7 +931,6 @@
   publication_date: '2017-01-22'
   year: 2017
   link: https://doi.org/10.1073/pnas.1703379114
-  pubID: MultigenerationalSilencingDynamicsControlCellAging
 - title: A stabilized microbial ecosystem of self-limiting bacteria using synthetic
     quorum-regulated lysis
   journal: Nature microbiology
@@ -1008,7 +944,6 @@
   publication_date: '2017-06-12'
   year: 2017
   link: https://doi.org/10.1038/nmicrobiol.2017.83
-  pubID: AStabilizedMicrobialEcosystemOfSelfLimitingBacteriaUsingSyntheticQuorumRegulatedLysis
 - title: 'Author response: Inter-species population dynamics enhance microbial horizontal
     gene transfer and spread of antibiotic resistance'
   journal: eLife
@@ -1019,7 +954,6 @@
   publication_date: '2017-07-13'
   year: 2017
   link: https://doi.org/10.7554/elife.25950.035
-  pubID: AuthorResponseInterSpeciesPopulationDynamicsEnhanceMicrobialHorizontalGeneTransferAndSpreadOfAntibioticResistance
 - title: 'FBB: a fast Bayesian-bound tool to calibrate RNA-seq aligners'
   journal: Bioinformatics
   authors:
@@ -1029,7 +963,6 @@
   publication_date: '2017-01-15'
   year: 2017
   link: https://doi.org/10.1093/bioinformatics/btw608
-  pubID: FbbAFastBayesianBoundToolToCalibrateRnaSeqAligners
 - title: Suppression of Beneficial Mutations in Dynamic Microbial Populations.
   journal: Physical review letters
   authors:
@@ -1039,7 +972,6 @@
   publication_date: '2017-01-12'
   year: 2017
   link: https://doi.org/10.1103/PhysRevLett.118.028102
-  pubID: SuppressionOfBeneficialMutationsInDynamicMicrobialPopulations
 - title: Synchronized DNA cycling across a bacterial population
   journal: Nature Genetics
   authors:
@@ -1049,7 +981,6 @@
   publication_date: '2017-07-10'
   year: 2017
   link: https://doi.org/10.1038/ng.3915
-  pubID: SynchronizedDnaCyclingAcrossABacterialPopulation
 - title: Rapid and scalable preparation of bacterial lysates for cell-free gene expression
   journal: bioRxiv
   authors:
@@ -1060,7 +991,6 @@
   publication_date: '2017-07-12'
   year: 2017
   link: https://doi.org/10.1101/162768
-  pubID: RapidAndScalablePreparationOfBacterialLysatesForCellFreeGeneExpression
 - title: Multi‐generational silencing dynamics control cell aging
   journal: The FASEB Journal
   authors:
@@ -1074,7 +1004,6 @@
   publication_date: '2017-04-01'
   year: 2017
   link: https://doi.org/10.1096/fasebj.31.1_supplement.614.6
-  pubID: MultiGenerationalSilencingDynamicsControlCellAging
 - title: Inter-species population dynamics enhance microbial horizontal gene transfer
     and spread of antibiotic resistance
   journal: eLife
@@ -1085,7 +1014,6 @@
   publication_date: '2017-11-01'
   year: 2017
   link: https://doi.org/10.7554/eLife.25950
-  pubID: InterSpeciesPopulationDynamicsEnhanceMicrobialHorizontalGeneTransferAndSpreadOfAntibioticResistance
 - title: Criticality and Adaptivity in Enzymatic Networks.
   journal: Biophysical journal
   authors:
@@ -1096,7 +1024,6 @@
   publication_date: '2016-09-06'
   year: 2016
   link: https://doi.org/10.1016/j.bpj.2016.07.036
-  pubID: CriticalityAndAdaptivityInEnzymaticNetworks
 - title: Synchronized cycles of bacterial lysis for in vivo delivery
   journal: Nature
   authors:
@@ -1114,7 +1041,6 @@
   publication_date: '2016-07-20'
   year: 2016
   link: https://doi.org/10.1038/nature18930
-  pubID: SynchronizedCyclesOfBacterialLysisForInVivoDelivery
 - title: 'Transcriptional regulation with CRISPR-Cas9: principles, advances, and applications.'
   journal: Current opinion in biotechnology
   authors:
@@ -1125,7 +1051,6 @@
   publication_date: '2016-08-01'
   year: 2016
   link: https://doi.org/10.1016/j.copbio.2016.06.003
-  pubID: TranscriptionalRegulationWithCrisprCas9PrinciplesAdvancesAndApplications
 - title: 'Correction: Turing Patterning Using Gene Circuits with Gas-Induced Degradation
     of Quorum Sensing Molecules'
   journal: PLoS ONE
@@ -1136,7 +1061,6 @@
   publication_date: '2016-07-28'
   year: 2016
   link: https://doi.org/10.1371/journal.pone.0160272
-  pubID: CorrectionTuringPatterningUsingGeneCircuitsWithGasInducedDegradationOfQuorumSensingMolecules
 - title: Quorum Sensing Communication Modules for Microbial Consortia.
   journal: ACS synthetic biology
   authors:
@@ -1145,7 +1069,6 @@
   publication_date: '2016-05-19'
   year: 2016
   link: https://doi.org/10.1021/acssynbio.5b00286
-  pubID: QuorumSensingCommunicationModulesForMicrobialConsortia
 - title: A Microfluidic Platform for Long-Term Monitoring of Algae in a Dynamic Environment.
   journal: ACS synthetic biology
   authors:
@@ -1159,7 +1082,6 @@
   publication_date: '2016-01-15'
   year: 2016
   link: https://doi.org/10.1021/acssynbio.5b00094
-  pubID: AMicrofluidicPlatformForLongTermMonitoringOfAlgaeInADynamicEnvironment
 - title: Posttranscriptional Regulation of Gcr1 Expression and Activity Is Crucial
     for Metabolic Adjustment in Response to Glucose Availability.
   journal: Molecular cell
@@ -1175,7 +1097,6 @@
   publication_date: '2016-05-05'
   year: 2016
   link: https://doi.org/10.1016/j.molcel.2016.04.012
-  pubID: PosttranscriptionalRegulationOfGcr1ExpressionAndActivityIsCrucialForMetabolicAdjustmentInResponseToGlucoseAvailability
 - title: Orthogonal Modular Gene Repression in Escherichia coli Using Engineered CRISPR/Cas9.
   journal: ACS synthetic biology
   authors:
@@ -1186,7 +1107,6 @@
   publication_date: '2016-01-15'
   year: 2016
   link: https://doi.org/10.1021/acssynbio.5b00147
-  pubID: OrthogonalModularGeneRepressionInEscherichiaColiUsingEngineeredCrisprCas9
 - title: Turing Patterning Using Gene Circuits with Gas-Induced Degradation of Quorum
     Sensing Molecules
   journal: PLoS ONE
@@ -1197,7 +1117,6 @@
   publication_date: '2016-05-05'
   year: 2016
   link: https://doi.org/10.1371/journal.pone.0153679
-  pubID: TuringPatterningUsingGeneCircuitsWithGasInducedDegradationOfQuorumSensingMolecules
 - title: Programmable probiotics for detection of cancer in urine
   journal: Science Translational Medicine
   authors:
@@ -1212,7 +1131,6 @@
   publication_date: '2015-05-01'
   year: 2015
   link: https://doi.org/10.1126/scitranslmed.aaa3519
-  pubID: ProgrammableProbioticsForDetectionOfCancerInUrine
 - title: An Online Biosensor for the Protection of Water Supplies
   journal: ''
   authors:
@@ -1226,7 +1144,6 @@
   publication_date: '2015-03-01'
   year: 2015
   link: https://www.semanticscholar.org/paper/df99cc403c7646f96cc25ec2a4fa02fb3a6cc722
-  pubID: AnOnlineBiosensorForTheProtectionOfWaterSupplies
 - title: Distributed Classifier Based on Genetically Engineered Bacterial Cell Cultures
   journal: ACS Synthetic Biology
   authors:
@@ -1239,7 +1156,6 @@
   publication_date: '2014-05-21'
   year: 2014
   link: https://doi.org/10.1021/sb500235p
-  pubID: DistributedClassifierBasedOnGeneticallyEngineeredBacterialCellCultures
 - title: Rapid and tunable post-translational coupling of genetic circuits
   journal: Nature
   authors:
@@ -1252,7 +1168,6 @@
   publication_date: '2014-04-09'
   year: 2014
   link: https://doi.org/10.1038/nature13238
-  pubID: RapidAndTunablePostTranslationalCouplingOfGeneticCircuits
 - title: In-Vivo Real-Time Control of Protein Expression from Endogenous and Synthetic
     Gene Networks
   journal: PLoS Computational Biology
@@ -1268,7 +1183,6 @@
   publication_date: '2014-05-01'
   year: 2014
   link: https://doi.org/10.1371/journal.pcbi.1003625
-  pubID: InVivoRealTimeControlOfProteinExpressionFromEndogenousAndSyntheticGeneNetworks
 - title: Synchronization of degrade-and-fire oscillations via a common activator.
   journal: Physical review letters
   authors:
@@ -1278,7 +1192,6 @@
   publication_date: '2014-09-19'
   year: 2014
   link: https://doi.org/10.1103/PHYSREVLETT.113.128102
-  pubID: SynchronizationOfDegradeAndFireOscillationsViaACommonActivator
 - title: Cyanobacterial Circadian Clock Proteins
   journal: null
   authors:
@@ -1292,7 +1205,6 @@
   publication_date: null
   year: 2014
   link: https://www.semanticscholar.org/paper/dca1c2e012a8a6917a741f7c227fe7f0634464c5
-  pubID: CyanobacterialCircadianClockProteins
 - title: Article Dynamic Localization of the Cyanobacterial Circadian Clock Proteins
   journal: ''
   authors:
@@ -1306,7 +1218,6 @@
   publication_date: null
   year: 2014
   link: https://www.semanticscholar.org/paper/ef3fd8940978455f2ec942c1fc9dc8bbacceda6f
-  pubID: ArticleDynamicLocalizationOfTheCyanobacterialCircadianClockProteins
 - title: Dual Delayed Feedback Provides Sensitivity and Robustness to the NF-κB Signaling
     Module
   journal: PLoS Computational Biology
@@ -1320,7 +1231,6 @@
   publication_date: '2013-06-01'
   year: 2013
   link: https://doi.org/10.1371/journal.pcbi.1003112
-  pubID: DualDelayedFeedbackProvidesSensitivityAndRobustnessToTheNfBSignalingModule
 - title: Translational cross talk in gene networks.
   journal: Biophysical journal
   authors:
@@ -1331,7 +1241,6 @@
   publication_date: '2013-06-04'
   year: 2013
   link: https://doi.org/10.1016/j.bpj.2013.04.049
-  pubID: TranslationalCrossTalkInGeneNetworks
 - title: Measuring growth and gene expression dynamics of tumor-targeted S. typhimurium
     bacteria.
   journal: 'Journal of visualized experiments : JoVE'
@@ -1343,7 +1252,6 @@
   publication_date: '2013-07-06'
   year: 2013
   link: https://doi.org/10.3791/50540
-  pubID: MeasuringGrowthAndGeneExpressionDynamicsOfTumorTargetedSTyphimuriumBacteria
 - title: Measuring competitive fitness in dynamic environments.
   journal: The journal of physical chemistry. B
   authors:
@@ -1355,7 +1263,6 @@
   publication_date: '2013-08-07'
   year: 2013
   link: https://doi.org/10.1021/jp403162v
-  pubID: MeasuringCompetitiveFitnessInDynamicEnvironments
 - title: Making gene circuits sing
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -1364,7 +1271,6 @@
   publication_date: '2012-10-01'
   year: 2012
   link: https://doi.org/10.1073/pnas.1214118109
-  pubID: MakingGeneCircuitsSing
 - title: Synthetic biology approaches to biofuel production
   journal: Biofuels
   authors:
@@ -1374,7 +1280,6 @@
   publication_date: '2012-01-01'
   year: 2012
   link: https://doi.org/10.4155/bfs.11.151
-  pubID: SyntheticBiologyApproachesToBiofuelProduction
 - title: Genetic Circuits in Salmonella typhimurium
   journal: ACS Synthetic Biology
   authors:
@@ -1388,7 +1293,6 @@
   publication_date: '2012-08-01'
   year: 2012
   link: https://doi.org/10.1021/sb300060e
-  pubID: GeneticCircuitsInSalmonellaTyphimurium
 - title: Vacuum-assisted cell loading enables shear-free mammalian microfluidic culture.
   journal: Lab on a chip
   authors:
@@ -1398,7 +1302,6 @@
   publication_date: '2012-10-16'
   year: 2012
   link: https://doi.org/10.1039/c2lc40569e
-  pubID: VacuumAssistedCellLoadingEnablesShearFreeMammalianMicrofluidicCulture
 - title: Engineered microbes for therapeutic applications.
   journal: ACS synthetic biology
   authors:
@@ -1406,7 +1309,6 @@
   publication_date: '2012-10-19'
   year: 2012
   link: https://doi.org/10.1021/sb300105b
-  pubID: EngineeredMicrobesForTherapeuticApplications
 - title: Fast stochastic algorithm for simulating evolutionary population dynamics
   journal: Bioinformatics
   authors:
@@ -1416,7 +1318,6 @@
   publication_date: '2012-02-28'
   year: 2012
   link: https://doi.org/10.1093/bioinformatics/bts130
-  pubID: FastStochasticAlgorithmForSimulatingEvolutionaryPopulationDynamics
 - title: In Vivo Gene Expression Dynamics of Tumor-Targeted Bacteria
   journal: ACS Synthetic Biology
   authors:
@@ -1428,7 +1329,6 @@
   publication_date: '2012-09-01'
   year: 2012
   link: https://doi.org/10.1021/sb3000639
-  pubID: InVivoGeneExpressionDynamicsOfTumorTargetedBacteria
 - title: Recent advances in single-cell studies of gene regulation.
   journal: Current opinion in biotechnology
   authors:
@@ -1438,7 +1338,6 @@
   publication_date: '2012-02-01'
   year: 2012
   link: https://doi.org/10.1016/j.copbio.2011.11.006
-  pubID: RecentAdvancesInSingleCellStudiesOfGeneRegulation
 - title: 'Microfluidics for synthetic biology: from design to execution.'
   journal: Methods in enzymology
   authors:
@@ -1448,7 +1347,6 @@
   publication_date: null
   year: 2011
   link: https://doi.org/10.1016/B978-0-12-385075-1.00014-7
-  pubID: MicrofluidicsForSyntheticBiologyFromDesignToExecution
 - title: Buckling instability in ordered bacterial colonies
   journal: Physical Biology
   authors:
@@ -1462,7 +1360,6 @@
   publication_date: '2011-04-01'
   year: 2011
   link: https://doi.org/10.1088/1478-3975/8/2/026008
-  pubID: BucklingInstabilityInOrderedBacterialColonies
 - title: In-Silico Patterning of Vascular Mesenchymal Cells in Three Dimensions
   journal: PLoS ONE
   authors:
@@ -1474,7 +1371,6 @@
   publication_date: '2011-05-25'
   year: 2011
   link: https://doi.org/10.1371/journal.pone.0020182
-  pubID: InSilicoPatterningOfVascularMesenchymalCellsInThreeDimensions
 - title: Entrainment of a Population of Synthetic Genetic Oscillators
   journal: Science
   authors:
@@ -1486,7 +1382,6 @@
   publication_date: '2011-09-02'
   year: 2011
   link: https://doi.org/10.1126/science.1205369
-  pubID: EntrainmentOfAPopulationOfSyntheticGeneticOscillators
 - title: Sensing array of radically coupled genetic biopixels
   journal: Nature
   authors:
@@ -1499,7 +1394,6 @@
   publication_date: '2011-11-16'
   year: 2011
   link: https://doi.org/10.1038/nature10722
-  pubID: SensingArrayOfRadicallyCoupledGeneticBiopixels
 - title: Antagonistic gene transcripts regulate adaptation to new growth environments
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -1512,7 +1406,6 @@
   publication_date: '2011-12-12'
   year: 2011
   link: https://doi.org/10.1073/pnas.1111408109
-  pubID: AntagonisticGeneTranscriptsRegulateAdaptationToNewGrowthEnvironments
 - title: Factorized time-dependent distributions for certain multiclass queueing networks
     and an application to enzymatic processing networks
   journal: Queueing Systems
@@ -1524,7 +1417,6 @@
   publication_date: '2011-12-01'
   year: 2011
   link: https://doi.org/10.1007/S11134-011-9216-3
-  pubID: FactorizedTimeDependentDistributionsForCertainMulticlassQueueingNetworksAndAnApplicationToEnzymaticProcessingNetworks
 - title: Yeast Dynamically Modify Their Environment to Achieve Better Mating Efficiency
   journal: Science Signaling
   authors:
@@ -1539,7 +1431,6 @@
   publication_date: '2011-08-16'
   year: 2011
   link: https://doi.org/10.1126/scisignal.2001763
-  pubID: YeastDynamicallyModifyTheirEnvironmentToAchieveBetterMatingEfficiency
 - title: Synchronization of synthetic gene oscillators
   journal: Bulletin of the American Physical Society
   authors:
@@ -1550,7 +1441,6 @@
   publication_date: '2010-03-16'
   year: 2010
   link: https://www.semanticscholar.org/paper/421165875a46757147dd19e0924e1977d5b6334f
-  pubID: SynchronizationOfSyntheticGeneOscillators
 - title: Streaming instability in growing cell populations.
   journal: Physical review letters
   authors:
@@ -1562,7 +1452,6 @@
   publication_date: '2010-05-21'
   year: 2010
   link: https://doi.org/10.1103/PHYSREVLETT.104.208101
-  pubID: StreamingInstabilityInGrowingCellPopulations
 - title: Stochastic Emergence of Groupthink
   journal: Science
   authors:
@@ -1571,7 +1460,6 @@
   publication_date: '2010-05-21'
   year: 2010
   link: https://doi.org/10.1126/science.1190372
-  pubID: StochasticEmergenceOfGroupthink
 - title: 'Circadian rhythms in Neurospora crassa: dynamics of the clock component
     frequency visualized using a fluorescent reporter.'
   journal: 'Fungal genetics and biology : FG & B'
@@ -1584,7 +1472,6 @@
   publication_date: '2010-04-01'
   year: 2010
   link: https://doi.org/10.1016/j.fgb.2009.12.013
-  pubID: CircadianRhythmsInNeurosporaCrassaDynamicsOfTheClockComponentFrequencyVisualizedUsingAFluorescentReporter
 - title: 'Correlation resonance generated by coupled enzymatic processing : Supplementary
     information'
   journal: null
@@ -1597,7 +1484,6 @@
   publication_date: null
   year: 2010
   link: https://www.semanticscholar.org/paper/9a49e0650ec113241b375552c8d5575361df340f
-  pubID: CorrelationResonanceGeneratedByCoupledEnzymaticProcessingSupplementaryInformation
 - title: Correlation resonance generated by coupled enzymatic processing.
   journal: Biophysical journal
   authors:
@@ -1609,7 +1495,6 @@
   publication_date: '2010-11-17'
   year: 2010
   link: https://doi.org/10.1016/j.bpj.2010.09.057
-  pubID: CorrelationResonanceGeneratedByCoupledEnzymaticProcessing
 - title: Phenotypic impact of regulatory noise in cellular stress-response pathways
   journal: Systems and Synthetic Biology
   authors:
@@ -1623,7 +1508,6 @@
   publication_date: '2010-04-22'
   year: 2010
   link: https://doi.org/10.1007/s11693-010-9055-2
-  pubID: PhenotypicImpactOfRegulatoryNoiseInCellularStressResponsePathways
 - title: 'Systems biology of cellular rhythms: from cacophony to symphony.'
   journal: Current opinion in genetics & development
   authors:
@@ -1633,7 +1517,6 @@
   publication_date: '2010-10-29'
   year: 2010
   link: https://doi.org/10.1016/j.gde.2010.10.003
-  pubID: SystemsBiologyOfCellularRhythmsFromCacophonyToSymphony
 - title: of a synthetic mammalian gene network.
   journal: null
   authors:
@@ -1644,7 +1527,6 @@
   publication_date: null
   year: 2010
   link: https://www.semanticscholar.org/paper/fb934b55fad61e36e81c5d2a44d760aa7ebcab1f
-  pubID: OfASyntheticMammalianGeneNetwork
 - title: 'The pedestrian watchmaker: Genetic clocks from engineered oscillators'
   journal: FEBS Letters
   authors:
@@ -1654,7 +1536,6 @@
   publication_date: '2009-12-17'
   year: 2009
   link: https://doi.org/10.1016/j.febslet.2009.10.089
-  pubID: ThePedestrianWatchmakerGeneticClocksFromEngineeredOscillators
 - title: Overpowering the component problem
   journal: Nature Biotechnology
   authors:
@@ -1663,7 +1544,6 @@
   publication_date: '2009-05-01'
   year: 2009
   link: https://doi.org/10.1038/nbt0509-450
-  pubID: OverpoweringTheComponentProblem
 - title: Delay-induced degrade-and-fire oscillations in small genetic circuits.
   journal: Physical review letters
   authors:
@@ -1674,7 +1554,6 @@
   publication_date: '2009-02-13'
   year: 2009
   link: https://doi.org/10.1103/PHYSREVLETT.102.068105
-  pubID: DelayInducedDegradeAndFireOscillationsInSmallGeneticCircuits
 - title: Microfluidic devices for measuring gene network dynamics in single cells
   journal: Nature Reviews Genetics
   authors:
@@ -1683,7 +1562,6 @@
   publication_date: '2009-09-01'
   year: 2009
   link: https://doi.org/10.1038/nrg2625
-  pubID: MicrofluidicDevicesForMeasuringGeneNetworkDynamicsInSingleCells
 - title: A synchronized quorum of genetic clocks
   journal: Nature
   authors:
@@ -1694,7 +1572,6 @@
   publication_date: '2009-12-22'
   year: 2009
   link: https://doi.org/10.1038/nature08753
-  pubID: ASynchronizedQuorumOfGeneticClocks
 - title: Genetic clocks from engineered oscillators Jeff Hasty
   journal: null
   authors:
@@ -1702,7 +1579,6 @@
   publication_date: null
   year: 2009
   link: https://www.semanticscholar.org/paper/9be92f071d08ca7efa0855fe9afefa0f0bca7f7d
-  pubID: GeneticClocksFromEngineeredOscillatorsJeffHasty
 - title: Coherent activation of a synthetic mammalian gene network
   journal: Systems and Synthetic Biology
   authors:
@@ -1713,7 +1589,6 @@
   publication_date: '2009-09-11'
   year: 2009
   link: https://doi.org/10.1007/s11693-009-9044-5
-  pubID: CoherentActivationOfASyntheticMammalianGeneNetwork
 - title: Cell cycle-dependent variations in protein concentration
   journal: Nucleic Acids Research
   authors:
@@ -1724,7 +1599,6 @@
   publication_date: '2009-12-17'
   year: 2009
   link: https://doi.org/10.1093/nar/gkp1069
-  pubID: CellCycleDependentVariationsInProteinConcentration
 - title: Entrainment of bacterial synthetic clocks
   journal: ''
   authors:
@@ -1736,7 +1610,6 @@
   publication_date: null
   year: 2009
   link: https://www.semanticscholar.org/paper/f4e104888a0cbf3d69c7db76bf460edb3e3ab52b
-  pubID: EntrainmentOfBacterialSyntheticClocks
 - title: Regulation of cell signaling dynamics by the protein kinase-scaffold Ste5.
   journal: Molecular cell
   authors:
@@ -1752,7 +1625,6 @@
   publication_date: '2008-06-05'
   year: 2008
   link: https://doi.org/10.1016/j.molcel.2008.04.016
-  pubID: RegulationOfCellSignalingDynamicsByTheProteinKinaseScaffoldSte5
 - title: Metabolic gene regulation in a dynamically changing environment
   journal: Nature
   authors:
@@ -1766,7 +1638,6 @@
   publication_date: '2008-08-28'
   year: 2008
   link: https://doi.org/10.1038/nature07211
-  pubID: MetabolicGeneRegulationInADynamicallyChangingEnvironment
 - title: 'Systems biology: Genome rewired'
   journal: Nature
   authors:
@@ -1775,7 +1646,6 @@
   publication_date: '2008-04-17'
   year: 2008
   link: https://doi.org/10.1038/452824a
-  pubID: SystemsBiologyGenomeRewired
 - title: 'SYNTHETIC BIOLOGY: BIOENGINEERING AT THE GENOMIC LEVEL'
   journal: null
   authors:
@@ -1787,7 +1657,6 @@
   publication_date: '2008-05-01'
   year: 2008
   link: https://doi.org/10.1142/9789812770011_0025
-  pubID: SyntheticBiologyBioengineeringAtTheGenomicLevel
 - title: Biomechanical ordering of dense cell populations
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -1798,7 +1667,6 @@
   publication_date: '2008-10-07'
   year: 2008
   link: https://doi.org/10.1073/pnas.0706805105
-  pubID: BiomechanicalOrderingOfDenseCellPopulations
 - title: A molecular noise generator
   journal: Physical Biology
   authors:
@@ -1809,7 +1677,6 @@
   publication_date: '2008-08-13'
   year: 2008
   link: https://doi.org/10.1088/1478-3975/5/3/036006
-  pubID: AMolecularNoiseGenerator
 - title: A fast, robust, and tunable synthetic gene oscillator
   journal: Nature
   authors:
@@ -1822,7 +1689,6 @@
   publication_date: '2008-10-29'
   year: 2008
   link: https://doi.org/10.1038/nature07389
-  pubID: AFastRobustAndTunableSyntheticGeneOscillator
 - title: 'Synthetic Gene Networks: \textit{De novo constructs -- in numero} descriptions'
   journal: Bulletin of the American Physical Society
   authors:
@@ -1830,7 +1696,6 @@
   publication_date: '2007-03-05'
   year: 2007
   link: https://www.semanticscholar.org/paper/64a13d4b6a9b957da0deab4d573866a0fa162f1a
-  pubID: SyntheticGeneNetworksTextitDeNovoConstructsInNumeroDescriptions
 - title: Transient dynamics of genetic regulatory networks.
   journal: Biophysical journal
   authors:
@@ -1841,7 +1706,6 @@
   publication_date: '2007-05-15'
   year: 2007
   link: https://doi.org/10.1529/BIOPHYSJ.106.095638
-  pubID: TransientDynamicsOfGeneticRegulatoryNetworks
 - title: A DNA methylation–based switch generates bistable gene expression
   journal: Nature Genetics
   authors:
@@ -1850,7 +1714,6 @@
   publication_date: '2007-02-01'
   year: 2007
   link: https://doi.org/10.1038/ng0207-146
-  pubID: ADnaMethylationBasedSwitchGeneratesBistableGeneExpression
 - title: Phenotypic variability of growing cellular populations
   journal: Proceedings of the National Academy of Sciences
   authors:
@@ -1862,7 +1725,6 @@
   publication_date: '2007-11-27'
   year: 2007
   link: https://doi.org/10.1073/pnas.0706115104
-  pubID: PhenotypicVariabilityOfGrowingCellularPopulations
 - title: Stochastically driven genetic circuits.
   journal: Chaos
   authors:
@@ -1872,7 +1734,6 @@
   publication_date: '2006-06-30'
   year: 2006
   link: https://doi.org/10.1063/1.2209571
-  pubID: StochasticallyDrivenGeneticCircuits
 - title: in compartment / phosphorylation space Statistics of cellular signal transduction
     as a race to the nucleus by multiple random walkers
   journal: null
@@ -1885,7 +1746,6 @@
   publication_date: null
   year: 2006
   link: https://www.semanticscholar.org/paper/36d1a36c75359a1042f1f8a56fd70f5d1592c0f2
-  pubID: InCompartmentPhosphorylationSpaceStatisticsOfCellularSignalTransductionAsARaceToTheNucleusByMultipleRandomWalkers
 - title: Statistics of cellular signal transduction as a race to the nucleus by multiple
     random walkers in compartment/phosphorylation space
   journal: Proceedings of the National Academy of Sciences
@@ -1898,7 +1758,6 @@
   publication_date: '2006-11-07'
   year: 2006
   link: https://doi.org/10.1073/pnas.0607698103
-  pubID: StatisticsOfCellularSignalTransductionAsARaceToTheNucleusByMultipleRandomWalkersInCompartmentPhosphorylationSpace
 - title: Effective temperature in stochastic kinetics and gene networks.
   journal: Biophysical journal
   authors:
@@ -1908,7 +1767,6 @@
   publication_date: '2006-07-01'
   year: 2006
   link: https://doi.org/10.1529/BIOPHYSJ.105.074914
-  pubID: EffectiveTemperatureInStochasticKineticsAndGeneNetworks
 - title: Origins of extrinsic variability in eukaryotic gene expression
   journal: Nature
   authors:
@@ -1921,7 +1779,6 @@
   publication_date: '2006-02-16'
   year: 2006
   link: https://doi.org/10.1038/nature04281
-  pubID: OriginsOfExtrinsicVariabilityInEukaryoticGeneExpression
 - title: A bottom-up approach to gene regulation
   journal: Nature
   authors:
@@ -1936,7 +1793,6 @@
   publication_date: '2006-02-16'
   year: 2006
   link: https://doi.org/10.1038/nature04473
-  pubID: ABottomUpApproachToGeneRegulation
 - title: 'Imaging gene expression: tiny signals make a big noise'
   journal: Nature Chemical Biology
   authors:
@@ -1945,7 +1801,6 @@
   publication_date: '2006-04-01'
   year: 2006
   link: https://doi.org/10.1038/NCHEMBIO0406-181
-  pubID: ImagingGeneExpressionTinySignalsMakeABigNoise
 - title: Time-Delay Induced Oscillations in Gene-Regulatory Networks
   journal: Bulletin of the American Physical Society
   authors:
@@ -1956,7 +1811,6 @@
   publication_date: '2005-03-21'
   year: 2005
   link: https://www.semanticscholar.org/paper/0c5babdd2780d699f8e238689d3af2081d330158
-  pubID: TimeDelayInducedOscillationsInGeneRegulatoryNetworks
 - title: Delay-induced stochastic oscillations in gene regulation.
   journal: Proceedings of the National Academy of Sciences of the United States of
     America
@@ -1968,7 +1822,6 @@
   publication_date: '2005-10-11'
   year: 2005
   link: https://doi.org/10.1073/PNAS.0503858102
-  pubID: DelayInducedStochasticOscillationsInGeneRegulation
 - title: Non-Markovian processes in gene regulation (Keynote Address)
   journal: null
   authors:
@@ -1979,7 +1832,6 @@
   publication_date: '2005-05-01'
   year: 2005
   link: https://doi.org/10.1117/12.609707
-  pubID: NonMarkovianProcessesInGeneRegulationKeynoteAddress
 - title: Monitoring dynamics of single-cell gene expression over multiple cell cycles
     Supplementary Information
   journal: null
@@ -1992,7 +1844,6 @@
   publication_date: null
   year: 2005
   link: https://www.semanticscholar.org/paper/eeeb0695d440f513deec371b8d5faa8c8612c3d5
-  pubID: MonitoringDynamicsOfSingleCellGeneExpressionOverMultipleCellCyclesSupplementaryInformation
 - title: Monitoring dynamics of single-cell gene expression over multiple cell cycles
   journal: Molecular Systems Biology
   authors:
@@ -2004,7 +1855,6 @@
   publication_date: '2005-11-22'
   year: 2005
   link: https://doi.org/10.1038/msb4100032
-  pubID: MonitoringDynamicsOfSingleCellGeneExpressionOverMultipleCellCycles
 - title: Cellular growth and division in the Gillespie algorithm.
   journal: Systems biology
   authors:
@@ -2015,7 +1865,6 @@
   publication_date: '2004-09-20'
   year: 2004
   link: https://doi.org/10.1049/SB:20045016
-  pubID: CellularGrowthAndDivisionInTheGillespieAlgorithm
 - title: Prediction and measurement of an autoregulatory genetic module
   journal: Proceedings of the National Academy of Sciences of the United States of
     America
@@ -2027,7 +1876,6 @@
   publication_date: '2003-06-13'
   year: 2003
   link: https://doi.org/10.1073/pnas.1332628100
-  pubID: PredictionAndMeasurementOfAnAutoregulatoryGeneticModule
 - title: 'Reverse engineering gene networks: Integrating genetic perturbations with
     dynamical modeling'
   journal: Proceedings of the National Academy of Sciences of the United States of
@@ -2040,7 +1888,6 @@
   publication_date: '2003-05-01'
   year: 2003
   link: https://doi.org/10.1073/pnas.0933416100
-  pubID: ReverseEngineeringGeneNetworksIntegratingGeneticPerturbationsWithDynamicalModeling
 - title: Engineered gene circuits
   journal: Nature
   authors:
@@ -2050,7 +1897,6 @@
   publication_date: '2002-11-14'
   year: 2002
   link: https://doi.org/10.1038/nature01257
-  pubID: EngineeredGeneCircuits
 - title: 'Autocatalytic Gene Expression : In Numero Quantitative Predictions , In
     Vivo Stochastic Dynamics'
   journal: null
@@ -2062,7 +1908,6 @@
   publication_date: null
   year: 2002
   link: https://www.semanticscholar.org/paper/8447576850af77fa926d196b1bad5fe612eff842
-  pubID: AutocatalyticGeneExpressionInNumeroQuantitativePredictionsInVivoStochasticDynamics
 - title: Design then mutate
   journal: Proceedings of the National Academy of Sciences of the United States of
     America
@@ -2071,7 +1916,6 @@
   publication_date: '2002-12-16'
   year: 2002
   link: https://doi.org/10.1073/pnas.012694899
-  pubID: DesignThenMutate
 - title: Synchronizing genetic relaxation oscillators by intercell signaling
   journal: Proceedings of the National Academy of Sciences of the United States of
     America
@@ -2083,7 +1927,6 @@
   publication_date: '2002-01-22'
   year: 2002
   link: https://doi.org/10.1073/pnas.022642299
-  pubID: SynchronizingGeneticRelaxationOscillatorsByIntercellSignaling
 - title: Synthetic gene network for entraining and amplifying cellular oscillations.
   journal: Physical review letters
   authors:
@@ -2094,7 +1937,6 @@
   publication_date: '2002-03-22'
   year: 2002
   link: https://doi.org/10.1103/PHYSREVLETT.88.148101
-  pubID: SyntheticGeneNetworkForEntrainingAndAmplifyingCellularOscillations
 - title: Translating the noise
   journal: Nature Genetics
   authors:
@@ -2103,7 +1945,6 @@
   publication_date: '2002-05-01'
   year: 2002
   link: https://doi.org/10.1038/ng0502-13
-  pubID: TranslatingTheNoise
 - title: 'Designer gene networks: Towards fundamental cellular control.'
   journal: Chaos
   authors:
@@ -2115,7 +1956,6 @@
   publication_date: '2001-03-05'
   year: 2001
   link: https://doi.org/10.1063/1.1345702
-  pubID: DesignerGeneNetworksTowardsFundamentalCellularControl
 - title: 'Protein interactions: Unspinning the web'
   journal: Nature
   authors:
@@ -2124,7 +1964,6 @@
   publication_date: '2001-05-03'
   year: 2001
   link: https://doi.org/10.1038/35075182
-  pubID: ProteinInteractionsUnspinningTheWeb
 - title: Wavelets of excitability in sensory neurons.
   journal: Journal of neurophysiology
   authors:
@@ -2135,7 +1974,6 @@
   publication_date: '2001-10-01'
   year: 2001
   link: https://doi.org/10.1152/JN.2001.86.4.2097
-  pubID: WaveletsOfExcitabilityInSensoryNeurons
 - title: 'Computational studies of gene regulatory networks: in numero molecular biology'
   journal: Nature Reviews Genetics
   authors:
@@ -2146,7 +1984,6 @@
   publication_date: '2001-04-01'
   year: 2001
   link: https://doi.org/10.1038/35066056
-  pubID: ComputationalStudiesOfGeneRegulatoryNetworksInNumeroMolecularBiology
 - title: 'Complex ligand-protein systems: a globally convergent iterative method for
     the n×m case'
   journal: Journal of Mathematical Biology
@@ -2157,7 +1994,6 @@
   publication_date: '2001-10-01'
   year: 2001
   link: https://doi.org/10.1007/S002850100086
-  pubID: ComplexLigandProteinSystemsAGloballyConvergentIterativeMethodForTheNMCase
 - title: Stochastic regulation of gene expression
   journal: ''
   authors:
@@ -2168,7 +2004,6 @@
   publication_date: '2000-11-01'
   year: 2000
   link: https://doi.org/10.1063/1.1302384
-  pubID: StochasticRegulationOfGeneExpression
 - title: Noise-based switches and amplifiers for gene expression.
   journal: Proceedings of the National Academy of Sciences of the United States of
     America
@@ -2180,7 +2015,6 @@
   publication_date: '2000-02-29'
   year: 2000
   link: https://doi.org/10.1073/pnas.040411297
-  pubID: NoiseBasedSwitchesAndAmplifiersForGeneExpression
 - title: Renormalization of Self‐Organized Critical Models
   journal: Annals of the New York Academy of Sciences
   authors:
@@ -2189,7 +2023,6 @@
   publication_date: '1998-05-01'
   year: 1998
   link: https://doi.org/10.1111/j.1749-6632.1998.tb08953.x
-  pubID: RenormalizationOfSelfOrganizedCriticalModels
 - title: Renormalization Group for Directed Sandpile Models
   journal: Physical Review Letters
   authors:
@@ -2198,7 +2031,6 @@
   publication_date: '1998-08-24'
   year: 1998
   link: https://doi.org/10.1103/PHYSREVLETT.81.1722
-  pubID: RenormalizationGroupForDirectedSandpileModels
 - title: Renormalization of one-dimensional avalanche models
   journal: Journal of Statistical Physics
   authors:
@@ -2207,7 +2039,6 @@
   publication_date: '1997-03-01'
   year: 1997
   link: https://doi.org/10.1007/BF02183620
-  pubID: RenormalizationOfOneDimensionalAvalancheModels
 - title: A renormalization group study of self-organized criticality
   journal: ''
   authors:
@@ -2215,7 +2046,6 @@
   publication_date: '1997-08-01'
   year: 1997
   link: https://www.semanticscholar.org/paper/2e1c0396eca2e1f64884a2541e4ab87eea47805d
-  pubID: ARenormalizationGroupStudyOfSelfOrganizedCriticality
 - title: Modeling the genetic dual-feedback oscillator
   journal: null
   authors:
@@ -2226,7 +2056,6 @@
   publication_date: null
   year: null
   link: https://www.semanticscholar.org/paper/144b836abb41b20393b05e18485d2bcae6cb92ae
-  pubID: ModelingTheGeneticDualFeedbackOscillator
 - title: Recent Advances in Single-cell Studies of Gene Regulation This Review Comes
     from a Themed Issue on Analytical Biotechnology Edited Single Molecule Microscopy
     Dynamic Manipulation of Cell Environment Quantifying Gene Network Dynamics
@@ -2240,7 +2069,6 @@
   publication_date: null
   year: null
   link: https://www.semanticscholar.org/paper/15bf57fffc3d94a8bd7aa026edc0103ac868ca5e
-  pubID: RecentAdvancesInSingleCellStudiesOfGeneRegulationThisReviewComesFromAThemedIssueOnAnalyticalBiotechnologyEditedSingleMoleculeMicroscopyDynamicManipulationOfCellEnvironmentQuantifyingGeneNetworkDynamics
 - title: Materials and Methods Som Text Figs. S1 to S6 References and Notes Movies
     S1 to S3 Noise Propagation in Gene Networks
   journal: null
@@ -2283,4 +2111,3 @@
   publication_date: null
   year: null
   link: https://www.semanticscholar.org/paper/dce5dc42a99fc326ebc12e26d82c0772883e7bca
-  pubID: MaterialsAndMethodsSomTextFigsS1ToS6ReferencesAndNotesMoviesS1ToS3NoisePropagationInGeneNetworks
