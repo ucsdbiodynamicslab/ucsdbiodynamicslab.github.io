@@ -37,14 +37,14 @@
   scholar: https://scholar.google.com/citations?user=BM4tBLEAAAAJ&hl=en&oi=ao
   role: PhD Student
 
-- name: Ben Liang
-  photo: /assets/images/biodynamics/portraits/ben.jpg
-  alt_photo: /assets/images/biodynamics/portraits/benFun.jpeg
-  interests:
-    - High Throughput Biology
-    - Adaptive Lab Evolution
-  scholar: 
-  role: PhD Student
+#- name: Ben Liang
+#  photo: /assets/images/biodynamics/portraits/ben.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/benFun.jpeg
+#  interests:
+#    - High Throughput Biology
+#    - Adaptive Lab Evolution
+#  scholar: 
+#  role: PhD Student
 
 - name: Katie O'Connor
   photo: /assets/images/biodynamics/portraits/katie.jpg
