@@ -1,6 +1,7 @@
 import requests
 import yaml
 import time
+import re
 from pathlib import Path
 from datetime import datetime
 import os
@@ -118,6 +119,17 @@ def resolve_link(paper):
     return paper.get("url")
 
 
+def generate_pub_id(title):
+    """Convert title to camelCase pubID by removing special characters and capitalizing each word"""
+    # Remove non-alphanumeric characters except spaces
+    cleaned = re.sub(r'[^a-zA-Z0-9\s]', '', title)
+    # Split by spaces and capitalize each word
+    words = cleaned.split()
+    # Join to create pubID
+    pub_id = ''.join(word.capitalize() for word in words)
+    return pub_id
+
+
 def format_papers(papers):
     print("Formatting papers...")
     formatted = []
@@ -126,14 +138,16 @@ def format_papers(papers):
         authors = [a["name"] for a in paper.get("authors", [])]
         journal_info = paper.get("journal")
         journal = journal_info.get("name") if journal_info else None
+        title = paper.get("title")
 
         formatted.append({
-            "title": paper.get("title"),
+            "title": title,
             "journal": journal,
             "authors": authors,
             "publication_date": paper.get("publicationDate"),
             "year": paper.get("year"),
-            "link": resolve_link(paper)
+            "link": resolve_link(paper),
+            "pubID": generate_pub_id(title)
         })
 
     formatted.sort(key=lambda x: x.get("year") or 0, reverse=True)
@@ -148,6 +162,44 @@ def write_yaml(data, filename):
         yaml.dump(data, f, sort_keys=False, allow_unicode=True)
 
     print("YAML write complete.\n")
+
+
+def read_existing_publications(filename):
+    """Read existing publications from YAML file"""
+    if not filename.exists():
+        return []
+    
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            data = yaml.safe_load(f)
+            return data if data else []
+    except Exception as e:
+        print(f"Could not read existing publications: {e}")
+        return []
+
+
+def merge_publications(new_papers, existing_papers):
+    """Merge new papers with existing ones, avoiding duplicates by title"""
+    # Create a dict of existing papers indexed by title
+    existing_by_title = {p.get("title"): p for p in existing_papers}
+    
+    # Start with existing papers
+    merged = list(existing_papers)
+    
+    # Add or update new papers
+    for paper in new_papers:
+        title = paper.get("title")
+        if title in existing_by_title:
+            # Update existing paper with new data
+            idx = merged.index(existing_by_title[title])
+            merged[idx] = paper
+        else:
+            # Add new paper
+            merged.append(paper)
+    
+    # Sort by year descending
+    merged.sort(key=lambda x: x.get("year") or 0, reverse=True)
+    return merged
 
 
 def main():
@@ -165,7 +217,13 @@ def main():
 
     unique_papers = deduplicate_papers(all_papers)
     formatted = format_papers(unique_papers)
-    write_yaml(formatted, OUTPUT_FILE)
+    
+    # Read existing publications and merge
+    existing = read_existing_publications(OUTPUT_FILE)
+    merged = merge_publications(formatted, existing)
+    
+    print(f"Total papers after merge: {len(merged)}\n")
+    write_yaml(merged, OUTPUT_FILE)
 
     elapsed = round(time.time() - start_time, 2)
     print(f"Finished in {elapsed} seconds.")
