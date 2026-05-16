@@ -28,14 +28,14 @@
   scholar: https://scholar.google.com/citations?user=Uw2qE7kAAAAJ&hl=en&oi=ao
   role: Postdoctoral Fellow
 
-- name: Shayna Holness
-  photo: /assets/images/biodynamics/portraits/shayna.jpg
-  alt_photo: /assets/images/biodynamics/portraits/shaynaFun.jpg
-  interests:
-    - Cellular Aging
-    - Yeast Engineering
-  scholar: https://scholar.google.com/citations?user=BM4tBLEAAAAJ&hl=en&oi=ao
-  role: PhD Student
+#- name: Shayna Holness
+#  photo: /assets/images/biodynamics/portraits/shayna.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/shaynaFun.jpg
+#  interests:
+#    - Cellular Aging
+#    - Yeast Engineering
+#  scholar: https://scholar.google.com/citations?user=BM4tBLEAAAAJ&hl=en&oi=ao
+#  role: PhD Student
 
 #- name: Ben Liang
 #  photo: /assets/images/biodynamics/portraits/ben.jpg
@@ -53,7 +53,7 @@
     - Tumor Microenvironment
     - Bacterial Drug Delivery
   scholar: 
-  role: PhD Student
+  role: Postdoctroal Fellow
 
 - name: Paige Steppe
   photo: /assets/images/biodynamics/portraits/paige.jpg
