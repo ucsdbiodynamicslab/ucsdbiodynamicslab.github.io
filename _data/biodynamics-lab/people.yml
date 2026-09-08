@@ -82,14 +82,14 @@
   scholar: 
   role: PhD Student
 
-- name: Wasu Ngamkanjanarat
-  photo: /assets/images/biodynamics/portraits/wes.jpg
-  alt_photo: /assets/images/biodynamics/portraits/wesFun.jpg
-  interests:
-    - Yeast Synthetic Biology
-    - Microfluidics
-  scholar: 
-  role: PhD Student
+#- name: Wasu Ngamkanjanarat
+#  photo: /assets/images/biodynamics/portraits/wes.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/wesFun.jpg
+#  interests:
+#    - Yeast Synthetic Biology
+#    - Microfluidics
+#  scholar: 
+#  role: PhD Student
 
 - name: Zahra Mousavi Karimi
   photo: /assets/images/biodynamics/portraits/zahra.jpg
@@ -111,33 +111,33 @@
   scholar: https://scholar.google.com/citations?user=2mkFskgAAAAJ&hl=en&oi=ao
   role: PhD Student
 
-- name: Philip Emmanuêle
-  photo: /assets/images/biodynamics/portraits/philip.jpeg
-  alt_photo: /assets/images/biodynamics/portraits/philipFun.jpg
-  interests:
-    - DNA Biosensors
-    - Bioprocessing
-  scholar: https://scholar.google.com/citations?user=cdXCuhUAAAAJ&hl=en&oi=ao
-  role: PhD Student
+#- name: Philip Emmanuêle
+#  photo: /assets/images/biodynamics/portraits/philip.jpeg
+#  alt_photo: /assets/images/biodynamics/portraits/philipFun.jpg
+#  interests:
+#    - DNA Biosensors
+#    - Bioprocessing
+#  scholar: https://scholar.google.com/citations?user=cdXCuhUAAAAJ&hl=en&oi=ao
+#  role: PhD Student
 
-- name: Gianna Elias
-  photo: /assets/images/biodynamics/portraits/gianna.jpg
-  alt_photo: /assets/images/biodynamics/portraits/giannaFun.jpg
-  interests:
-    - High Throughput Biology
-    - Extrachomosomal DNA
-    - Spheroids
-  scholar: https://scholar.google.com/citations?user=eeI7XhgAAAAJ&hl=en&oi=ao
-  role: PhD Student
+#- name: Gianna Elias
+#  photo: /assets/images/biodynamics/portraits/gianna.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/giannaFun.jpg
+#  interests:
+#    - High Throughput Biology
+#    - Extrachomosomal DNA
+#    - Spheroids
+#  scholar: https://scholar.google.com/citations?user=eeI7XhgAAAAJ&hl=en&oi=ao
+#  role: PhD Student
 
-- name: Krista Vear
-  photo: /assets/images/biodynamics/portraits/krista.jpg
-  alt_photo: /assets/images/biodynamics/portraits/kristaFun.jpg
-  interests:
-    - Biosensors
-    - CRISPR Associated Systems
-  scholar:
-  role: PhD Student
+#- name: Krista Vear
+#  photo: /assets/images/biodynamics/portraits/krista.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/kristaFun.jpg
+#  interests:
+#    - Biosensors
+#    - CRISPR Associated Systems
+#  scholar:
+#  role: PhD Student
 
 - name: Grace Baird
   photo: /assets/images/biodynamics/portraits/grace.jpg
@@ -149,14 +149,14 @@
   scholar: 
   role: PhD Student
 
-- name: Derek Chang
-  photo: /assets/images/biodynamics/portraits/derek.jpg
-  alt_photo: /assets/images/biodynamics/portraits/derekFun.jpg
-  interests:
-    - Biosensors
-    - CRISPR Associated Systems
-  scholar: 
-  role: Master's Student
+#- name: Derek Chang
+#  photo: /assets/images/biodynamics/portraits/derek.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/derekFun.jpg
+#  interests:
+#    - Biosensors
+#    - CRISPR Associated Systems
+#  scholar: 
+#  role: Master's Student
 
 - name: Alex Rosen
   photo: /assets/images/biodynamics/portraits/alex.jpg
@@ -167,35 +167,35 @@
   scholar: 
   role: Master's Student
 
-- name: Vaughan Altmann
-  photo: /assets/images/biodynamics/portraits/vaughan.jpg
-  alt_photo: /assets/images/biodynamics/portraits/vaughanFun.jpg
-  interests:
-    - Biosensors
-    - CRISPR Associated Systems
-  scholar: 
-  role: Master's Student
+#- name: Vaughan Altmann
+#  photo: /assets/images/biodynamics/portraits/vaughan.jpg
+#  alt_photo: /assets/images/biodynamics/portraits/vaughanFun.jpg
+#  interests:
+#    - Biosensors
+#    - CRISPR Associated Systems
+#  scholar: 
+#  role: Master's Student
 
-- name: William Hoefer
-  interests:
-    - DNA Biosensors
-    - Bioprocessing
-  scholar: 
-  role: Undergraduate Student
+#- name: William Hoefer
+#  interests:
+#    - DNA Biosensors
+#    - Bioprocessing
+#  scholar: 
+#  role: Undergraduate Student
 
-- name: Luxika Sikaryn
-  interests:
-    - Yeast Synthetic Biology
-    - Microfluidics
-  scholar: 
-  role: Undergraduate Student
+#- name: Luxika Sikaryn
+#  interests:
+#    - Yeast Synthetic Biology
+#    - Microfluidics
+#  scholar: 
+#  role: Undergraduate Student
 
-- name: Hannah Bai
-  interests:
-    - DNA Biosensors
-    - Bioprocessing
-  scholar: 
-  role: Undergraduate Student
+#- name: Hannah Bai
+#  interests:
+#    - DNA Biosensors
+#    - Bioprocessing
+#  scholar: 
+#  role: Undergraduate Student
 
 - name: Johanna Cao
   interests:
@@ -211,12 +211,12 @@
   scholar: 
   role: Undergraduate Student
 
-- name: Maxwell Schwendiger
-  interests:
-    - Microbiology
-    - Genetics
-  scholar: 
-  role: Undergraduate Student
+#- name: Maxwell Schwendiger
+#  interests:
+#    - Microbiology
+#    - Genetics
+#  scholar: 
+#  role: Undergraduate Student
 
 - name: Emerald Forrest
   photo: /assets/images/biodynamics/portraits/emerald.jpeg
@@ -261,4 +261,12 @@
     - Founding Director of the Center for Microbiome Innovation and Professor of Pediatrics and Computer Science & Engineering, UCSD
   scholar: /people/rob-knight/
   scholar_new_tab: false
+  role: Collaborator
+
+- name: Dr. Alex Chavez
+  photo: /assets/images/biodynamics/portraits/alexC.jpg
+  alt_photo: /assets/images/biodynamics/portraits/alexC.jpg
+  interests: 
+    - Genome Engineering, High-throughput Screening, Neurodegenerative Disease
+  scholar: https://scholar.google.com/citations?user=sbYrDlMAAAAJ&hl=en
   role: Collaborator
