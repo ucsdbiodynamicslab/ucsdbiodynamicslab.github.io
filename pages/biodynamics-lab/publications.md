@@ -21,7 +21,7 @@ background: /assets/images/microfluidics-scaled.jpg
     <input id="user-email" type="email" placeholder="Your Email" style="width:100%; margin-bottom:1rem;" />
 
     <div style="display:flex; justify-content:space-between;">
-      <button onclick="submitPDFRequest()">Request</button>
+      <button onclick="submitPDFRequest()">Email PDF</button>
       <button onclick="closeModal()">Cancel</button>
     </div>
 
@@ -83,7 +83,7 @@ async function submitPDFRequest() {
     });
 
     if (response.ok) {
-      status.textContent = "Request sent. Check your email.";
+      status.textContent = "PDF sent by email.";
     } else {
       status.textContent = "Request failed.";
     }
@@ -133,7 +133,7 @@ function render() {
       div.style.marginBottom = "1.8rem";
 
       const buttonHTML = pub.pubID
-        ? `<button style="margin-top:0.4rem;" onclick="openModal('${pub.pubID}')">Request PDF</button>`
+        ? `<button style="margin-top:0.4rem;" onclick="openModal('${pub.pubID}')">Get PDF</button>`
         : "";
 
       div.innerHTML = `
