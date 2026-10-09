@@ -1,0 +1,20 @@
+# Publications the bot (assets/python/fetch_publications.py) should never add.
+# To permanently remove a paper from the site, delete it from publications.yml AND add it here,
+# otherwise the bot will add it back on its next run.
+# Each entry is matched by link (DOI) and/or title (ignoring case and punctuation).
+
+- title: "Su1480 CHARACTERIZATION OF ENZYMATIC ACTIVITY OF BILE SALT HYDROLASES CLONED FROM GUT BACTEROIDES SPECIES IN E. COLI"
+  link: https://doi.org/10.1016/s0016-5085(26)02687-9
+  reason: Conference abstract
+
+- title: "DISRUPTION OF CPG ISLAND-MEDIATED CHROMATIN ARCHITECTURE AND TRANSCRIPTIONAL HOMEOSTASIS DURING AGING"
+  link: https://doi.org/10.1093/geroni/igz038.756
+  reason: Conference abstract
+
+- title: "Materials and Methods Som Text Figs. S1 to S6 References and Notes Movies S1 to S3 Noise Propagation in Gene Networks"
+  link: https://www.semanticscholar.org/paper/dce5dc42a99fc326ebc12e26d82c0772883e7bca
+  reason: Supplementary material indexed as a paper
+
+- title: "Recent Advances in Single-cell Studies of Gene Regulation This Review Comes from a Themed Issue on Analytical Biotechnology Edited Single Molecule Microscopy Dynamic Manipulation of Cell Environment Quantifying Gene Network Dynamics"
+  link: https://www.semanticscholar.org/paper/15bf57fffc3d94a8bd7aa026edc0103ac868ca5e
+  reason: Garbled duplicate of "Recent Advances in Single-Cell Studies of Gene Regulation"

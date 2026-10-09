@@ -12,28 +12,38 @@ background: /assets/images/microfluidics-scaled.jpg
 
 <div id="pagination" style="margin-top: 2rem;"></div>
 
-<!-- Modal -->
-<div id="pdf-modal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.6); z-index:1000;">
-  <div style="background:white; max-width:400px; margin:10% auto; padding:1.5rem; border-radius:8px; position:relative;">
-    <h3 style="margin-top:0;">Request PDF</h3>
-    
-    <input id="user-name" type="text" placeholder="Your Name" style="width:100%; margin-bottom:0.5rem;" />
-    <input id="user-email" type="email" placeholder="Your Email" style="width:100%; margin-bottom:1rem;" />
-
-    <div style="display:flex; justify-content:space-between;">
-      <button onclick="submitPDFRequest()">Email PDF</button>
-      <button onclick="closeModal()">Cancel</button>
-    </div>
-
-    <div id="modal-status" style="margin-top:0.8rem; font-size:0.9rem;"></div>
-  </div>
-</div>
-
 <script>
 const publicationsData = {{ site.data.biodynamics-lab.publications | jsonify }};
 const perPage = 20;
 
-let currentPubID = null;
+// PDFs live in /assets/pdfs/biodynamics/, named <pubID>.pdf
+const pdfPaths = new Set([
+{%- for file in site.static_files -%}
+  {%- if file.path contains "/assets/pdfs/biodynamics/" and file.extname == ".pdf" -%}
+    {{ file.path | relative_url | jsonify }},
+  {%- endif -%}
+{%- endfor -%}
+]);
+
+function pdfURL(pub) {
+  if (!pub.pubID) return null;
+  const path = "{{ '/assets/pdfs/biodynamics/' | relative_url }}" + pub.pubID + ".pdf";
+  return pdfPaths.has(path) ? path : null;
+}
+
+// "YYYY-MM-DD" as a local date (new Date("YYYY-MM-DD") is UTC midnight, which shows as
+// the previous day in US time zones)
+function parseLocalDate(str) {
+  const [y, m, d] = String(str).split("-").map(Number);
+  return new Date(y, (m || 1) - 1, d || 1);
+}
+
+// Date used for sorting and year headers: publication date, else Jan 1 of the year, else null
+function pubDate(pub) {
+  if (pub.publication_date) return parseLocalDate(pub.publication_date);
+  if (pub.year) return new Date(pub.year, 0, 1);
+  return null;
+}
 
 function getQueryParam(param) {
   const urlParams = new URLSearchParams(window.location.search);
@@ -47,51 +57,6 @@ function updateURL(page) {
   window.history.pushState({}, "", newUrl);
 }
 
-function openModal(pubID) {
-  currentPubID = pubID;
-  document.getElementById("pdf-modal").style.display = "block";
-  document.getElementById("modal-status").textContent = "";
-}
-
-function closeModal() {
-  document.getElementById("pdf-modal").style.display = "none";
-}
-
-async function submitPDFRequest() {
-  const name = document.getElementById("user-name").value;
-  const email = document.getElementById("user-email").value;
-  const status = document.getElementById("modal-status");
-
-  if (!name || !email) {
-    status.textContent = "Please fill out both fields.";
-    return;
-  }
-
-  status.textContent = "Requesting...";
-
-  try {
-    const response = await fetch("https://coop.tail17b308.ts.net/request-pdf", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        paper_id: currentPubID
-      })
-    });
-
-    if (response.ok) {
-      status.textContent = "PDF sent by email.";
-    } else {
-      status.textContent = "Request failed.";
-    }
-  } catch (err) {
-    status.textContent = "Network error.";
-  }
-}
-
 function render() {
   const container = document.getElementById("publications-container");
   const pagination = document.getElementById("pagination");
@@ -100,9 +65,11 @@ function render() {
 
   let publications = [...publicationsData];
 
+  // Newest first; publications with no date or year go last
   publications.sort((a, b) => {
-    const dateA = new Date(a.publication_date || a.year);
-    const dateB = new Date(b.publication_date || b.year);
+    const dateA = pubDate(a);
+    const dateB = pubDate(b);
+    if (!dateA || !dateB) return (dateA ? -1 : 0) + (dateB ? 1 : 0);
     return dateB - dateA;
   });
 
@@ -119,7 +86,8 @@ function render() {
     let currentYear = null;
 
     pageItems.forEach(pub => {
-      const pubYear = pub.year || new Date(pub.publication_date).getFullYear();
+      const date = pubDate(pub);
+      const pubYear = date ? date.getFullYear() : "Other";
 
       if (pubYear !== currentYear) {
         currentYear = pubYear;
@@ -132,22 +100,23 @@ function render() {
       const div = document.createElement("div");
       div.style.marginBottom = "1.8rem";
 
-      const buttonHTML = pub.pubID
-        ? `<button style="margin-top:0.4rem;" onclick="openModal('${pub.pubID}')">Get PDF</button>`
+      const pdf = pdfURL(pub);
+      const titleHTML = pdf
+        ? `<a href="${pdf}" target="_blank" rel="noopener">${pub.title}</a>`
+        : pub.title;
+
+      const buttonHTML = pub.link
+        ? `<a class="btn btn-sm btn-outline-dark mt-2" href="${pub.link}" target="_blank" rel="noopener">Journal Version</a>`
         : "";
 
       div.innerHTML = `
         <div style="margin-bottom:0.2rem;">
-          <strong>
-            <a href="${pub.link}" target="_blank" rel="noopener">
-              ${pub.title}
-            </a>
-          </strong>
+          <strong>${titleHTML}</strong>
         </div>
         <div>${pub.authors.join(", ")}</div>
         <div><em>${pub.journal || ""}</em></div>
         <div style="font-size:0.9rem; opacity:0.7;">
-          ${pub.publication_date ? new Date(pub.publication_date).toLocaleDateString() : ""}
+          ${pub.publication_date ? parseLocalDate(pub.publication_date).toLocaleDateString() : ""}
         </div>
         ${buttonHTML}
       `;

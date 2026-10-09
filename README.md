@@ -244,8 +244,17 @@ The script performs the following tasks:
   - publication date
   - year
   - paper link (DOI preferred)
-- Sorts publications by publication date
+- Merges the results into the existing data file (see below)
 - Writes the results to the site data directory
+
+### How merging works
+
+The script never starts from scratch: it reads the existing ```publications.yml``` and merges the fetched papers into it.
+
+- A fetched paper is matched to an existing entry by **link (DOI) first**, then by **title ignoring case and punctuation**. Matched entries are updated with the latest metadata but **keep their ```pubID```**, so PDF links don't break if a title changes.
+- Papers with no match are added, with a ```pubID``` generated from the title.
+- Entries are never deleted by the bot, so anything added or kept by hand stays.
+- Papers listed in ```_data/biodynamics-lab/publications_exclude.yml``` are never added. **To permanently remove a paper, delete it from ```publications.yml``` and add it to the exclude list**, or the bot will add it back on its next run.
 
 Output file:
 
@@ -280,17 +289,33 @@ The publications page loads this file at build time and uses JavaScript to:
 
 - sort publications by date
 - group them by year
-- dispaly titles with links to the papers
+- display titles linked to the PDF (when one exists in the repo)
+- show a **Journal Version** button linking to the publisher (DOI) page
 - paginate results (20 pubs per page)
+
+### Publication PDFs
+
+PDFs are stored in ```assets/pdfs/biodynamics/``` and must be named ```<pubID>.pdf```, where ```pubID``` matches the entry in ```publications.yml```. The page only links a title to a PDF if a file with that exact name exists; otherwise the title is shown as plain text. To add a PDF for a new paper, copy it into that folder with the matching name and commit.
 
 ---
 
 ## 3. GitHub Actions Automation
-WIP
+
+Location: ```.github/workflows/update-publications.yml```
+
+The workflow runs on the 1st and 15th of each month at 12:00 UTC, and can be run by hand from the repository's **Actions** tab (**Update Publications → Run workflow**). It runs the fetch script, then commits and pushes ```publications.yml``` if it changed. GitHub Pages then rebuilds the site.
+
+- The Semantic Scholar API key is stored as the repository secret ```S2_API_KEY```.
+- The news bot (```update-news.yml```) runs an hour later and shares a concurrency group with this workflow, so the two never push at the same time.
+- If a run fails, open it in the Actions tab and expand **Run publication fetch script** to see the error.
+
+To preview what the bot would change, run ```python assets/python/fetch_publications.py``` locally and review ```git diff _data/biodynamics-lab/publications.yml```. It works without an API key, just more slowly.
 
 
 
 
 # The Publications File Server
+
+No longer used by the live site. The previous publications page, which emailed PDFs through this server, is kept in ```_archive/publications-email-request.md``` (not built into the site).
 
 # Handling DNS Stuff

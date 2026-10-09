@@ -2,8 +2,16 @@ name: Update News
 
 on:
   schedule:
-    - cron: "0 12 */14 * *"   # approximately every 2 weeks at 12:00 UTC
+    - cron: "0 13 1,15 * *"   # 1st and 15th of each month at 13:00 UTC (an hour after publications)
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Shared with update-publications.yml so the two bots never push at the same time
+concurrency:
+  group: site-data-bot
+  cancel-in-progress: false
 
 jobs:
   update-news:
@@ -11,10 +19,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
 
@@ -33,4 +41,5 @@ jobs:
           git config user.email "news-bot@users.noreply.github.com"
           git add _data/news.yml
           git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update news"
+          git pull --rebase
           git push
