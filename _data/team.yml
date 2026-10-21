@@ -28,13 +28,22 @@
 #    Many times great-nephew of Fry. Tenured professor of [Mars University](https://en.wikipedia.org/wiki/Mars_University).
 
 - name: Jeff Hasty
-  role: Director
+  role: Co-Director
   image: assets/images/headshots/jhasty_headshot.jpg
   description: >
     Genetic Circuits • Biophysics • Engineered Ecologies
   googlescholar: 5rjhaooAAAAJ&hl=en&oi=ao
   email: jhasty@ucsd.edu
   homepage: https://synbio.ucsd.edu/people/jeff-hasty/
+
+- name: Nan Hao
+  role: Co-Director
+  image: assets/images/headshots/nhao_headshot.jpg
+  description: >
+    Dynamics of the Stress Response • Cellular Aging • Heterogeneity in Cancer
+  googlescholar: 4TlPy6MAAAAJ&hl=en
+  email: nhao@ucsd.edu
+  homepage: https://synbio.ucsd.edu/people/nan-hao/
 
 - name: Lev Tsimring
   #role: Principal Investigator
@@ -44,15 +53,6 @@
   googlescholar: Muw0HmEAAAAJ
   email: ltsimring@ucsd.edu
   homepage: https://synbio.ucsd.edu/people/lev-tsimring/
-
-- name: Nan Hao
-  #role: Principal Investigator
-  image: assets/images/headshots/nhao_headshot.jpg
-  description: >
-    Dynamics of the Stress Response • Cellular Aging • Heterogeneity in Cancer
-  googlescholar: 4TlPy6MAAAAJ&hl=en
-  email: nhao@ucsd.edu
-  homepage: https://synbio.ucsd.edu/people/nan-hao/
 
 - name: Robert Cooper
   #role: Principal Investigator
