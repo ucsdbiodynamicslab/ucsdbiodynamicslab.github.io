@@ -1,3 +1,32 @@
+- title: Communication Circuits in Bacteria
+  journal: SynBio
+  authors:
+  - Austin Doughty
+  - Alyssa Jasmine Chiang
+  - Jeff Hasty
+  publication_date: '2026-10-16'
+  year: 2026
+  link: https://doi.org/10.3390/synbio4040020
+  pubID: CommunicationCircuitsInBacteria
+- title: Tn7 Integration Efficiently Introduces Gene Expression Cassettes into a Gut-Native
+    Escherichia coli Strain
+  journal: ACS Synthetic Biology
+  authors:
+  - David M. Zong
+  - Sharyl Bailey
+  - Zainab Fatima
+  - Celeste K. Kanne
+  - Nicole Siguenza
+  - R. Alexander Richter
+  - Ian W. Campbell
+  - Matthew K. Waldor
+  - Yousong Ding
+  - Jeff Hasty
+  - Amir Zarrinpar
+  publication_date: null
+  year: 2026
+  link: https://doi.org/10.1021/acssynbio.6c00472
+  pubID: Tn7IntegrationEfficientlyIntroducesGeneExpressionCassettesIntoAGutNativeEscherichiaColiStrain
 - title: A diversified consortium of engineered biosensors enables multi-target quantification.
   journal: Cell systems
   authors:
@@ -1703,17 +1732,6 @@
   year: 2010
   link: https://doi.org/10.1016/j.gde.2010.10.003
   pubID: SystemsBiologyOfCellularRhythmsFromCacophonyToSymphony
-- title: of a synthetic mammalian gene network.
-  journal: null
-  authors:
-  - D. Longo
-  - A. Hoffmann
-  - L. Tsimring
-  - J. Hasty
-  publication_date: null
-  year: 2010
-  link: https://www.semanticscholar.org/paper/fb934b55fad61e36e81c5d2a44d760aa7ebcab1f
-  pubID: OfASyntheticMammalianGeneNetwork
 - title: A synchronized quorum of genetic clocks
   journal: Nature
   authors:
