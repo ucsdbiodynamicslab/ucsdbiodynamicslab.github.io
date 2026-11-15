@@ -2,14 +2,14 @@
   journal: SynBio
   authors:
   - Austin Doughty
-  - Alyssa Jasmine Chiang
+  - A. Chiang
   - Jeff Hasty
   publication_date: '2026-10-16'
   year: 2026
   link: https://doi.org/10.3390/synbio4040020
   pubID: CommunicationCircuitsInBacteria
-- title: Tn7 Integration Efficiently Introduces Gene Expression Cassettes into a Gut-Native
-    Escherichia coli Strain
+- title: "Tn7 Integration Efficiently Introduces Gene Expression Cassettes into a\
+    \ Gut-Native\n Escherichia coli\n Strain"
   journal: ACS Synthetic Biology
   authors:
   - David M. Zong
@@ -17,13 +17,13 @@
   - Zainab Fatima
   - Celeste K. Kanne
   - Nicole Siguenza
-  - R. Alexander Richter
+  - R. Richter
   - Ian W. Campbell
-  - Matthew K. Waldor
-  - Yousong Ding
+  - M. Waldor
+  - You-Song Ding
   - Jeff Hasty
   - Amir Zarrinpar
-  publication_date: null
+  publication_date: '2026-10-15'
   year: 2026
   link: https://doi.org/10.1021/acssynbio.6c00472
   pubID: Tn7IntegrationEfficientlyIntroducesGeneExpressionCassettesIntoAGutNativeEscherichiaColiStrain
@@ -116,12 +116,37 @@
   year: 2026
   link: https://doi.org/10.1021/acssynbio.6c00472
   pubID: Tn7IntegrationEfficientlyIntroducesGeneExpressionCassettesIntoAGutNativeEscherichiaColiStrain
+- title: 'Author Correction: Divergent metabolic programmes control two populations
+    of MAIT cells that protect the lung.'
+  journal: Nature cell biology
+  authors:
+  - Thomas Riffelmacher
+  - Mallory Paynich Murray
+  - Chantal Wientjens
+  - Shilpi Chandra
+  - Viankail Cedillo-Castelan
+  - Ting-Fang Chou
+  - Sara McArdle
+  - Christopher H. Dillingham
+  - Jordan J. Devereaux
+  - Aaron Nilsen
+  - S. Brunel
+  - David M. Lewinsohn
+  - Jeff Hasty
+  - G. Seumois
+  - Chris A. Benedict
+  - P. Vijayanand
+  - Mitchell Kronenberg
+  publication_date: '2026-11-06'
+  year: 2026
+  link: https://doi.org/10.1038/s41556-026-02153-x
+  pubID: AuthorCorrectionDivergentMetabolicProgrammesControlTwoPopulationsOfMaitCellsThatProtectTheLung
 - title: 'BudFinder: A Masked Auto-Encoder Vision Transformer Framework for Yeast
     Budding Detection'
   journal: bioRxiv
   authors:
   - Phuc Nguyen
-  - Zahra Karimi
+  - Zahra Mousavi Karimi
   - Adrian Layer
   - Markus B. Wan
   - He-Tian Su
@@ -194,7 +219,7 @@
   - T. Kościółek
   - R. Kuplicki
   - Teresa A. Victor
-  - M. P. Paulus
+  - M. Paulus
   - Kristen E Savage
   - J. Benbow
   - E. Spielfogel
@@ -480,8 +505,8 @@
   - Ting-Fang Chou
   - Sara McArdle
   - Christopher H. Dillingham
-  - Jordan J Devereaux
-  - Aaron Nilsen
+  - Jordan J. Devereaux
+  - Aaron C. Nilsen
   - S. Brunel
   - D. Lewinsohn
   - J. Hasty
@@ -496,7 +521,7 @@
 - title: Enhanced cellular longevity arising from environmental fluctuations
   journal: bioRxiv
   authors:
-  - Yuting Liu
+  - Yu-Ting Liu
   - Zhen Zhou
   - Songlin Wu
   - G. Ni
@@ -630,7 +655,7 @@
   - Yang Li
   - Wanying Tian
   - He-Tian Su
-  - Yan-Fei Jiang
+  - Y. Jiang
   - Shayna E Holness
   - Elizabeth Stasiowski
   - L. Tsimring
@@ -715,7 +740,7 @@
   - Yang Li
   - Wanying Tian
   - He-Tian Su
-  - Yan-Fei Jiang
+  - Y. Jiang
   - Shayna E Holness
   - Elizabeth Stasiowski
   - L. Tsimring
@@ -848,7 +873,7 @@
   journal: Science (New York, N.Y.)
   authors:
   - Yang Li
-  - Yan-Fei Jiang
+  - Y. Jiang
   - Julie Paxman
   - R. O'Laughlin
   - Stephen Klepin
@@ -954,7 +979,7 @@
   journal: bioRxiv
   authors:
   - Yang Li
-  - Yan-Fei Jiang
+  - Y. Jiang
   - Julie Paxman
   - R. O'Laughlin
   - L. Pillus
@@ -1198,6 +1223,16 @@
   year: 2017
   link: https://doi.org/10.7554/eLife.25950
   pubID: InterSpeciesPopulationDynamicsEnhanceMicrobialHorizontalGeneTransferAndSpreadOfAntibioticResistance
+- title: FBB RNA‐seqアライナをキャリブレーションするためのBayes結合ツール
+  journal: Bioinformatics
+  authors:
+  - Rodriguez-Lujan Irene
+  - J. Hasty
+  - Huerta Ramon
+  publication_date: null
+  year: 2017
+  link: https://www.semanticscholar.org/paper/6835f0233c846b0eaef92e707e5e440960603c90
+  pubID: FbbRnaSeqBayes
 - title: Criticality and Adaptivity in Enzymatic Networks.
   journal: Biophysical journal
   authors:
@@ -1212,7 +1247,7 @@
 - title: Synchronized cycles of bacterial lysis for in vivo delivery
   journal: Nature
   authors:
-  - M. Din
+  - M. O. Din
   - T. Danino
   - Arthur Prindle
   - M. Skalak
@@ -2321,9 +2356,6 @@
   journal: ''
   authors:
   - J. Hasty
-  - J. Pradines
-  - M. Dolnik
-  - J. Collins
   publication_date: '2000-11-01'
   year: 2000
   link: https://doi.org/10.1063/1.1302384
